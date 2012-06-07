@@ -1,0 +1,44 @@
+// Xcode target configuration settings for Max externals
+//
+// Changes to the settings in this file will be applied to all externals
+// To change settings for only one of the objects, override the settings using Xcode's target inspector.
+//
+// Timothy Place
+// Copyright © 2009, Cycling '74
+
+
+// Name & Version
+PRODUCT_NAME = $(PROJECT_NAME)
+PRODUCT_VERSION = 5.1.9
+PRODUCT_BUILD = 1974
+
+
+// Paths
+C74SUPPORT = $(SRCROOT)/../../c74support
+C74PRIVATE = $(SRCROOT)/../../c74support-private
+HEADER_SEARCH_PATHS = /Developer/Headers/FlatCarbon "$(C74SUPPORT)/max-includes" "$(C74PRIVATE)/max-includes"
+USER_HEADER_SEARCH_PATHS = 
+FRAMEWORK_SEARCH_PATHS = "$(C74SUPPORT)/max-includes"
+DSTROOT = $(SRCROOT)/../../../sysbuild/$(CONFIGURATION)/Cycling '74/extensions
+// (This next path is relative to DSTROOT)
+INSTALL_PATH = /
+
+
+// Special Files
+GCC_PREFIX_HEADER = $(C74SUPPORT)/max-includes/macho-prefix.pch
+INFOPLIST_FILE = $(C74PRIVATE)/max-includes/Info.plist
+
+
+// Per architecture and deployment settings
+SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk
+SDKROOT[arch=i386] = /Developer/SDKs/MacOSX10.4u.sdk
+SDKROOT[arch=ppc] = /Developer/SDKs/MacOSX10.4u.sdk
+GCC_VERSION = 4.0
+MACOSX_DEPLOYMENT_TARGET = 10.4
+
+
+// Static Configuration (don't change these)
+WRAPPER_EXTENSION = mxo;
+WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas
+DEPLOYMENT_LOCATION = YES
+GENERATE_PKGINFO_FILE = YES

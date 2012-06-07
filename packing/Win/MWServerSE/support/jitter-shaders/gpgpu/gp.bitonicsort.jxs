@@ -1,0 +1,56 @@
+<jittershader name="bitonicsort">
+	<param name="offset" type="float" default="0" />
+	<param name="pbufinfo" type="float" default="512" />
+	<param name="stage" type="float" default="0" />
+	<param name="stepno" type="float" default="0" />
+	<language name="cg" version="1.0">
+		<bind param="stride" program="fp" />
+		<bind param="pbufinfo" program="fp" />
+		<bind param="stage" program="fp" />
+		<bind param="stepno" program="fp" />
+		<program name="passthru" type="vertex" source="sh.passthru.vp.cg" entry="passthru" />
+		<program name="fp" type="fragment" entry="BitonicSort">
+<![CDATA[
+
+// example usage:
+//  for(i=0; i<LOGN; i++){
+//    stepno = 1 << (i+1);//(int)pow(2,i+1);
+//    for(j=i; j>=0; j--){
+//      offset = 1 << j;//(int)pow(2,j);
+//      stage = 2*offset;
+//      pbufinfo = { W, 1.0/W, 1.0 };
+//    }
+//  }
+
+float2 convert1dto2d( float coord1d, float width ){
+  float2 coord2d;
+  coord2d.y = coord1d/width;
+  coord2d.x = floor(frac(coord2d.y) * width);
+  coord2d.y = floor(coord2d.y);
+  return coord2d;
+}
+
+
+float BitonicSort( varying float2 elem2d : WPOS,
+                   uniform samplerRECT sortedlist : texunit0,
+                   uniform float offset,
+                   uniform float pbufinfo,
+                   uniform float stage,
+                   uniform float stepno ) : COLOR
+{
+  elem2d = floor(elem2d);
+  float elem1d = elem2d.y*pbufinfo.x + elem2d.x;
+  half csign = (fmod(elem1d, stage) < offset) ? 1 : -1;
+  half cdir = (fmod(floor(elem1d/stepno), 2) == 0) ? 1 : -1;
+  float val0 = f1texRECT( sortedlist, elem2d );
+  float adr1d = csign*offset + elem1d;
+  float2 adr2d = convert1dto2d(adr1d, pbufinfo.x);
+  float val1 = f1texRECT( sortedlist, adr2d );
+  float cmin = (val0.x < val1.x) ? val0 : val1;
+  float cmax = (val0.x > val1.x) ? val0 : val1;
+  return (csign == cdir) ? cmin : cmax;
+}
+]]>		
+		</program>
+	</language>
+</jittershader>

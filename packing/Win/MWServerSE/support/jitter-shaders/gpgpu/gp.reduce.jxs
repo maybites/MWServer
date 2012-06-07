@@ -1,0 +1,37 @@
+<jittershader name="reduce">
+	<language name="cg" version="1.0">
+		<program name="passthru" type="vertex" source="sh.passthru.vp.cg" entry="passthru" />
+		<program name="fp" type="fragment" entry="Reduce">
+<![CDATA[
+
+// example usage:
+//
+// glBindTexture(GL_TEXTURE_RECTANGLE_NV, randomtextureid);
+// for (int i=W/2; i>0; i = i/2) {
+//	  // Note that we have to subtract -1 from
+//	  // the texture coordinates since we 
+//	  // specify the texture coordinates at the 
+//	  // edge of the pixel but OpenGL samples at 
+//	  // the pixel centers.
+//	  quad( 0,  0,     i,     i);
+//	  texcoord(-1, -1);
+//	  texcoord(i*2-1, i*2-1);
+//	  
+//	  glCopyTexSubImage2D(GL_TEXTURE_RECTANGLE_NV, 0,
+//			              0, 0, 0, 0, i, i);
+// }	  
+  
+float4 Reduce ( float2 texcoord : TEX0,
+                uniform samplerRECT img : texunit0 ) : COLOR
+{
+  float4 a, b, c, d;
+  a = f4texRECT( img, texcoord );
+  b = f4texRECT( img, texcoord + float2(0,1) );
+  c = f4texRECT( img, texcoord + float2(1,0) );
+  d = f4texRECT( img, texcoord + float2(1,1) );
+  return max( max(a,b), max(c,d) );
+} 
+]]>		
+		</program>
+	</language>
+</jittershader>

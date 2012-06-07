@@ -1,0 +1,78 @@
+<jittershader name="edgeblend">
+	<description>
+	generates gradient alpha for edge-blending
+	</description>
+	<param name="blendpower" type="float" default="1." />
+	<param name="blendluminance" type="float" default="1." />
+	<param name="gamma" type="vec3" default="2.2 2.2 2.2" />
+	<param name="tex0" type="int" default="0" />
+	<param name="tex1" type="int" default="1" />
+	<language name="glsl" version="1.0">
+		<bind param="blendpower" program="fp" />
+		<bind param="blendluminance" program="fp" />
+		<bind param="gamma" program="fp" />
+		<bind param="tex0" program="fp" />
+		<bind param="tex1" program="fp" />
+		<program name="vp" type="vertex" source="sh.passthrudim.vp.glsl" />
+		<program name="fp" type="fragment">
+<![CDATA[
+
+// Martin Froehlich - maybites@projektil.ch
+// Copyright 2010 - projektil.ch
+
+// based on code by
+
+// Andrew Benson - andrewb@cycling74.com
+// Copyright 2006 - Cycling '74
+
+//fragment shader for generating alpha-gradient
+
+//setup for 2 texture
+varying vec2 texcoord0;
+varying vec2 texcoord1;
+
+varying vec2 texdim0;
+
+uniform sampler2DRect tex0;
+uniform sampler2DRect tex1;
+
+//wipe state
+uniform float blendpower;
+uniform float blendluminance;
+uniform vec3 gamma;
+
+//blending function
+// for 0 <= x <= 0.5 : f(x) = blendluminance (2 x)^blendpower
+// for 0.5 < x <= 1 : f(x) = 1- (1- blendluminance) (2(1-x))^blendpower
+
+// f(x) = 1- (1-0.2)(2(1-x))^2
+void main()
+{   
+	vec4 v0 = texture2DRect(tex0, texcoord0);
+	vec4 v1 = texture2DRect(tex1, texcoord1);
+		
+	float alph = v1.r;
+	
+	// calculate alpha blend channel
+	float alphaBlend = 1.0;
+	if(0. <= alph && alph < .5){
+	 	alphaBlend = blendluminance * pow((2. * alph), blendpower);
+	 } else if(0.5 <= alph && alph < 1.0){
+	 	alphaBlend = 1. - (1. - blendluminance) * pow(2. * (1. - alph), blendpower);
+	 } 
+	 
+	// calculate gamma correction
+	vec3 gammaCorr = v0.rgb;
+	if(alphaBlend != 1.0){
+		gammaCorr += v0.rgb * (1.- pow(vec3(alphaBlend), 1. / gamma));
+	}
+	
+	vec4 wiped = vec4(gammaCorr, alphaBlend * v0.a); 
+	
+	// output texture
+	gl_FragColor = vec4 (wiped);
+}
+]]>
+		</program>
+	</language>
+</jittershader>

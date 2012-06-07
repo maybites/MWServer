@@ -1,0 +1,10 @@
+struct FragOutput {
+  float4 color : COLOR;
+};
+
+FragOutput passthru(float4 color : COLOR)
+{
+  FragOutput OUT;
+  OUT.color = color;
+  return OUT;
+}

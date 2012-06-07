@@ -1,0 +1,1 @@
+open thispatcherappicon C:/Users/maybites/Dropbox/Dev_MeshWarpServer/Max.ico

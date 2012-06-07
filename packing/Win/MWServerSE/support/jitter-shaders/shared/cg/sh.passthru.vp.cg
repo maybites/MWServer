@@ -1,0 +1,14 @@
+void passthru(float4 position : POSITION,
+                            float3 normal   : NORMAL,
+
+                        out float4 oPosition : POSITION,
+                        out float3 objectPos : TEXCOORD0,
+                        out float3 oNormal   : TEXCOORD1,
+
+                    uniform float4x4 modelViewProj)
+{
+  oPosition = mul(modelViewProj, position);
+  objectPos = position.xyz;
+  oNormal = normal;
+}
+

@@ -1,0 +1,102 @@
+<jittershader name="gm.billboard.jxs">
+	<description>Screen-aligned billboarding geometry shader</description>
+	<param name="scale" type="float" default="0.2" />
+	<param name="tex0" type="int" default="0" />
+	<language name="glsl" version="1.2">
+		<bind param="frame" program="vp" />
+		<bind param="scale" program="gp" />
+		<bind param="tex0" program="fp" />
+		<program name="vp" type="vertex">
+<![CDATA[
+
+#version 120
+
+uniform vec2 frame;
+
+varying vec2 texdim0;
+
+void main(void)
+{
+	//just send the things as they are
+	gl_Position = gl_Vertex;
+	gl_FrontColor = gl_Color;
+	
+	texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+}
+
+]]>		
+		</program>
+		<program name="gp" vertices_out="4" input_type="points" output_type="triangle_strip" type="geometry">
+<![CDATA[
+
+#version 120
+#extension GL_EXT_geometry_shader4 : enable
+
+uniform float scale;
+
+varying in vec2 texdim0[1];
+varying out vec2 TC;
+
+void main(void)
+{
+	vec3 Vx = vec3(	gl_ModelViewMatrix[0].x, 
+					gl_ModelViewMatrix[1].x, 
+					gl_ModelViewMatrix[2].x);
+	
+	vec3 Vy = vec3(	gl_ModelViewMatrix[0].y, 
+					gl_ModelViewMatrix[1].y, 
+					gl_ModelViewMatrix[2].y);
+
+	//vec3 N = cross(Vy, Vx);
+
+	vec3 UL = (-Vx + Vy)*scale;
+	vec3 UR = (Vx + Vy)*scale;
+	vec3 LR = (Vx - Vy)*scale;
+	vec3 LL = (-Vx - Vy)*scale;
+
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(0., 0.);
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+UL, 1.);
+	EmitVertex();
+	
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(1., 0.)*texdim0[0];
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+UR, 1.);	
+	EmitVertex();
+
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(0., 1.)*texdim0[0];
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+LL, 1.);
+	EmitVertex();
+	
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(1., 1.)*texdim0[0];
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+LR, 1.);
+	EmitVertex();
+	
+	EndPrimitive();
+}
+
+
+]]>
+		</program>
+		<program name="fp" type="fragment">
+<![CDATA[
+
+#version 120
+
+varying vec2 TC;
+
+uniform sampler2DRect tex0;
+
+void main (void)
+{
+	vec4 img = texture2DRect(tex0, TC);
+	gl_FragColor = gl_Color*img;
+}
+
+
+]]>		
+		</program>		
+	</language>
+</jittershader>
