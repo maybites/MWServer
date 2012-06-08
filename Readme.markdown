@@ -11,11 +11,11 @@ MeshWarpServer has been optimized for large movies (up to 8000x1200 pixels), how
 License:
 ========
 
-	http://meshwarpserver.org
-	Copyright "maybites" - Martin Froehlich
-	http://creativecommons.org/licenses/by-nc-sa/2.5/ch/
+http://meshwarpserver.org
+Copyright "maybites" - Martin Froehlich
+http://creativecommons.org/licenses/by-nc-sa/2.5/ch/
 	
-	Licensing details and interpretation for performers/programmers regarding the non commercial clause.
+[Licensing details](http://meshwarpserver.org/?page_id=12) and interpretation for performers/programmers regarding the non commercial clause.
 
 Requirements:
 =============
@@ -23,7 +23,6 @@ Requirements:
 	Mac OS X 10.6, 10.7
 	Windows 7
 	
-
 	In order to run MeshWarpServers Source for the first time, you need to install some proprietary software:
 
 	First download and install MaxMSPJitter from http://cycling74.org. It has a 30 day demo mode before you need to purchase it. 	You need to point the MaxMSP's Searchpath to the lib-folder: MaxMSP>Menu>Options>File Preferences… and add a new 	path to the lib-folder with subfolders selected. 
@@ -36,22 +35,24 @@ Requirements:
 Included:
 =========
 
-**library**
+	library
 		
+		A selection of meshes for starting. But check out the Tutorials on how to create your own meshes.
 	
-	A selection of meshes for starting. But check out the Tutorials on how to create your own meshes.
+---
+	demos		
+	
+		A selection of realized projects for learning purposes. (CC BY-NC-ND 2.5) by projektil.ch and maybites.ch
 
-**demos**		
+---
+	utilities		
 	
-	A selection of realized projects for learning purposes. (CC BY-NC-ND 2.5) by projektil.ch and maybites.ch
+		Utilities that might be helpful
 
-**utilities**		
+---
+	source		
 	
-	Utilities that might be helpful
-
-**source**		
-	
-	The complete source code for MeshWarpServer SE.
+		The complete source code for MeshWarpServer SE.
 
 
 Known Bugs:
@@ -87,4 +88,4 @@ Changelog:
 This software
 =============
 
-	IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
