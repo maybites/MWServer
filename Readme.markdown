@@ -20,39 +20,27 @@ http://creativecommons.org/licenses/by-nc-sa/2.5/ch/
 Requirements:
 =============
 	
-	Mac OS X 10.6, 10.7
-	Windows 7
+Mac OS X 10.6, 10.7
+Windows 7
 	
-	In order to run MeshWarpServers Source for the first time, you need to install some proprietary software:
+In order to run MeshWarpServers Source for the first time, you need to install some proprietary software:
 
-	First download and install MaxMSPJitter from http://cycling74.org. It has a 30 day demo mode before you need to purchase it. 	You need to point the MaxMSP's Searchpath to the lib-folder: MaxMSP>Menu>Options>File Preferences… and add a new 	path to the lib-folder with subfolders selected. 
+First download and install MaxMSPJitter from http://cycling74.org. It has a 30 day demo mode before you need to purchase it. 	You need to point the MaxMSP's Searchpath to the lib-folder: MaxMSP>Menu>Options>File Preferences… and add a new 	path to the lib-folder with subfolders selected. 
 
-	If you wanna use syphon functionality (OSX only) you need to download and install the Syphon Plugins for MaxMSP: 		http://syphon.v002.info/
+If you wanna use syphon functionality (OSX only) you need to download and install the Syphon Plugins for MaxMSP: http://syphon.v002.info/
 
-	If you run Windows on your machine you have to download and install Java from the official website: http://www.java.com and you need to download Quicktime from apple: http://www.apple.com/quicktime/download/
-	Now you are set.
+If you run Windows on your machine you have to download and install Java from the official website: http://www.java.com and you need to download Quicktime from apple: http://www.apple.com/quicktime/download/
+	
+Now you are set.
 	
 Included:
 =========
 
-	library
-		
-		A selection of meshes for starting. But check out the Tutorials on how to create your own meshes.
+*library* - A selection of meshes for starting. But check out the Tutorials on how to create your own meshes.
 	
----
-	demos		
-	
-		A selection of realized projects for learning purposes. (CC BY-NC-ND 2.5) by projektil.ch and maybites.ch
+*demos* - A selection of realized projects for learning purposes. (CC BY-NC-ND 2.5) by projektil.ch and maybites.ch
 
----
-	utilities		
-	
-		Utilities that might be helpful
-
----
-	source		
-	
-		The complete source code for MeshWarpServer SE.
+*source* - The complete source code for MeshWarpServer SE.
 
 
 Known Bugs:
