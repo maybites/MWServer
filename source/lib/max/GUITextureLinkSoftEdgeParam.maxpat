@@ -8,6 +8,7 @@
 		}
 ,
 		"rect" : [ 562.0, 80.0, 717.0, 684.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 159.0, 375.0, 77.0, 20.0 ],
-					"text" : "route glcolor"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -224,13 +211,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 577.0, 140.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"direction" : [ 0 ],
-						"enable" : [ 0 ],
-						"gradient" : [ 0 ]
+						"direction" : [ 3 ],
+						"enable" : [ 1 ],
+						"gradient" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u026016161"
+					"varname" : "u676008301"
 				}
 
 			}
@@ -241,7 +228,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 480.0, 6.0, 25.0, 25.0 ]
 				}
 
@@ -256,7 +243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 291.0, 337.0, 50.0, 18.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -431,7 +418,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -453,7 +439,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -529,7 +515,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 54.0, 118.0, 50.0, 18.0 ],
-									"text" : "-1 b"
+									"text" : "0 b"
 								}
 
 							}
@@ -634,7 +620,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -847,16 +833,16 @@
 ,
 									"patching_rect" : [ 205.0, 183.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
+										"default_fontface" : 0,
+										"fontname" : "Arial",
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
+										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"digest" : "",
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"tags" : "",
+										"description" : ""
 									}
 ,
 									"text" : "p orientation"
@@ -1060,16 +1046,16 @@
 ,
 					"patching_rect" : [ 444.0, 346.0, 122.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"tags" : "",
+						"description" : ""
 					}
 ,
 					"text" : "p setGradientTexture"
@@ -1080,7 +1066,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-5",
 					"items" : [ "set", "gradient", "direction...", ",", "towards", "right", ",", "towards", "left", ",", "towards", "top", ",", "towards", "down" ],
 					"labelclick" : 1,
@@ -1100,7 +1085,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-62",
 					"items" : [ "choose", "Gradient...", ",", "Gradient0", ",", "Gradient1", ",", "Gradient2", ",", "Gradient3", ",", "Gradient4" ],
 					"labelclick" : 1,
@@ -1137,7 +1121,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"gradient" : 1,
-					"hidden" : 1,
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1152,7 +1135,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bgcolor" : [ 0.5, 0.8, 0.5, 1.0 ],
 					"id" : "obj-26",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -1459,19 +1442,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-30", 0 ]
+					"source" : [ "obj-30", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-27", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-30", 1 ]
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1536,15 +1519,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 316.5, 398.0, 251.5, 398.0, 251.5, 163.0, 520.5, 163.0 ],
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-34", 1 ]
 				}
 
 			}
@@ -1683,7 +1657,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "softEdgeParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Dropbox/Dev_MeshWarpServer/MWServerSE/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
