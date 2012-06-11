@@ -111,7 +111,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_gl_texture" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 88.0, 6.0, 25.0, 25.0 ]
 								}
 
@@ -253,16 +253,16 @@
 ,
 					"patching_rect" : [ 381.0, 453.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"tags" : ""
 					}
 ,
 					"text" : "p gate"
@@ -312,7 +312,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_gl_texture" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 88.0, 6.0, 25.0, 25.0 ]
 								}
 
@@ -454,16 +454,16 @@
 ,
 					"patching_rect" : [ 381.0, 391.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"tags" : ""
 					}
 ,
 					"text" : "p gate"
@@ -655,16 +655,16 @@
 ,
 					"patching_rect" : [ 381.0, 316.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"tags" : ""
 					}
 ,
 					"text" : "p gate"
@@ -856,16 +856,16 @@
 ,
 					"patching_rect" : [ 381.0, 228.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"tags" : ""
 					}
 ,
 					"text" : "p gate"
@@ -1202,16 +1202,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 342.928558, 193.5, 835.5, 193.5 ],
-					"source" : [ "obj-14", 12 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1227,6 +1217,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 356.714294, 414.5, 416.5, 414.5 ],
 					"source" : [ "obj-14", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 342.928558, 193.5, 640.5, 193.5 ],
+					"source" : [ "obj-14", 12 ]
 				}
 
 			}
@@ -1506,14 +1506,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "textureParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Dropbox/Dev_MeshWarpServer/MWServerSE/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixDecoupling.maxpat",
-				"bootpath" : "/Users/maybites/Dropbox/Dev_MeshWarpServer/MWServerSE/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
