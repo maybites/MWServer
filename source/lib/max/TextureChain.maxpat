@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 127.0, 212.0, 1048.0, 593.0 ],
+		"rect" : [ 322.0, 204.0, 1048.0, 593.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,34 +27,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 114.0, 131.0, 32.5, 20.0 ],
-					"text" : "t l b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 127.5, 165.0, 83.0, 18.0 ],
-					"text" : "drawto output"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -253,16 +225,16 @@
 ,
 					"patching_rect" : [ 381.0, 453.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"default_fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p gate"
@@ -454,16 +426,16 @@
 ,
 					"patching_rect" : [ 381.0, 391.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"default_fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p gate"
@@ -655,16 +627,16 @@
 ,
 					"patching_rect" : [ 381.0, 316.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"default_fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p gate"
@@ -856,16 +828,16 @@
 ,
 					"patching_rect" : [ 381.0, 228.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"default_fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p gate"
@@ -881,8 +853,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 406.0, 265.0, 246.0, 20.0 ],
-					"text" : "jit.gl.slab @file cc.superbrcosa.jxs @adapt 1"
+					"patching_rect" : [ 406.0, 265.0, 283.0, 20.0 ],
+					"text" : "jit.gl.slab output @file cc.superbrcosa.jxs @adapt 1"
 				}
 
 			}
@@ -937,8 +909,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 406.0, 355.0, 200.0, 20.0 ],
-					"text" : "jit.gl.slab @file op.pass.jxs @adapt 1"
+					"patching_rect" : [ 406.0, 355.0, 313.0, 20.0 ],
+					"text" : "jit.gl.slab output @file op.pass.jxs @adapt 1"
 				}
 
 			}
@@ -1033,8 +1005,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 408.0, 563.0, 219.0, 20.0 ],
-					"text" : "jit.gl.texture @adapt 1 @name #1"
+					"patching_rect" : [ 408.0, 563.0, 253.0, 20.0 ],
+					"text" : "jit.gl.texture output @adapt 1 @name #1"
 				}
 
 			}
@@ -1047,8 +1019,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 407.0, 423.0, 243.0, 20.0 ],
-					"text" : "jit.gl.slab @file tr.supersoftedge.jxs @adapt 1"
+					"patching_rect" : [ 407.0, 423.0, 278.0, 20.0 ],
+					"text" : "jit.gl.slab output @file tr.supersoftedge.jxs @adapt 1"
 				}
 
 			}
@@ -1061,8 +1033,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 408.0, 489.0, 310.0, 20.0 ],
-					"text" : "jit.gl.slab @file td.resample.jxs @param interp 1 @adapt 1"
+					"patching_rect" : [ 408.0, 489.0, 346.0, 20.0 ],
+					"text" : "jit.gl.slab output @file td.resample.jxs @param interp 1 @adapt 1"
 				}
 
 			}
@@ -1163,6 +1135,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 177.5, 347.5, 415.5, 347.5 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1173,9 +1155,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 177.5, 551.5, 417.5, 551.5 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1192,11 +1175,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 177.5, 260.5, 415.5, 260.5 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 246.428574, 485.5, 417.5, 485.5 ],
 					"source" : [ "obj-14", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 177.5, 485.5, 417.5, 485.5 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1225,8 +1228,18 @@
 					"destination" : [ "obj-65", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 342.928558, 193.5, 640.5, 193.5 ],
+					"midpoints" : [ 342.928558, 193.5, 675.5, 193.5 ],
 					"source" : [ "obj-14", 12 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 177.5, 414.5, 416.5, 414.5 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1297,65 +1310,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 123.5, 347.5, 415.5, 347.5 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 123.5, 551.5, 417.5, 551.5 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 123.5, 261.5, 415.5, 261.5 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 123.5, 486.5, 417.5, 486.5 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 123.5, 414.5, 416.5, 414.5 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1410,56 +1364,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 137.0, 347.0, 415.5, 347.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 137.0, 551.0, 417.5, 551.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 137.0, 261.0, 415.5, 261.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 137.0, 486.0, 417.5, 486.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 137.0, 414.0, 416.5, 414.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1506,17 +1410,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "textureParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "\\Users\\maybites\\Dropbox\\Dev_MeshWarpServer\\Win\\source\\lib\\max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixDecoupling.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "\\Users\\maybites\\Dropbox\\Dev_MeshWarpServer\\Win\\source\\lib\\max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 432.0, 44.0, 931.0, 657.0 ],
+		"rect" : [ 37.0, 108.0, 931.0, 657.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,48 @@
 		"tags" : "",
 		"title" : "GUITextureSoftEdge",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-55",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 36.0, 933.5, 61.0, 18.0 ],
+					"text" : "visible $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "" ],
+					"patching_rect" : [ 8.5, 886.0, 32.5, 20.0 ],
+					"text" : "t 0 l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 15.0, 77.0, 18.0 ],
+					"text" : "softEdgeTex"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -63,7 +105,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 8.5, 966.0, 184.0, 20.0 ],
-					"text" : "jit.window @visible 0 @shared 1"
+					"text" : "jit.window @visible 1 @shared 1"
 				}
 
 			}
@@ -317,7 +359,7 @@
 					"name" : "GUITextureLinkSoftEdgeParam.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "jit_matrix" ],
+					"outlettype" : [ "bang", "", "" ],
 					"patching_rect" : [ 184.0, 571.0, 332.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 132.0, 294.0, 23.0 ],
@@ -332,7 +374,7 @@
 					"name" : "GUITextureLinkSoftEdgeParam.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "jit_matrix" ],
+					"outlettype" : [ "bang", "", "" ],
 					"patching_rect" : [ 184.0, 448.0, 332.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 108.0, 294.0, 23.0 ],
@@ -347,7 +389,7 @@
 					"name" : "GUITextureLinkSoftEdgeParam.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "jit_matrix" ],
+					"outlettype" : [ "bang", "", "" ],
 					"patching_rect" : [ 184.0, 325.0, 332.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 84.0, 294.0, 23.0 ],
@@ -362,7 +404,7 @@
 					"name" : "GUITextureLinkSoftEdgeParam.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "jit_matrix" ],
+					"outlettype" : [ "bang", "", "" ],
 					"patching_rect" : [ 184.0, 202.0, 332.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 60.0, 294.0, 23.0 ],
@@ -377,7 +419,7 @@
 					"name" : "GUITextureLinkSoftEdgeParam.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "jit_matrix" ],
+					"outlettype" : [ "bang", "", "" ],
 					"patching_rect" : [ 184.0, 79.0, 332.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 36.0, 294.0, 23.0 ],
@@ -688,7 +730,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u045000313"
+					"varname" : "u815016134"
 				}
 
 			}
@@ -1616,6 +1658,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1712,10 +1763,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -2041,6 +2101,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2078,14 +2156,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "GUITextureLinkSoftEdgeParam.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "\\Users\\maybites\\Dropbox\\Dev_MeshWarpServer\\Win\\source\\lib\\max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "softEdgeParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "\\Users\\maybites\\Dropbox\\Dev_MeshWarpServer\\Win\\source\\lib\\max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
