@@ -46,20 +46,17 @@ Included:
 Known Bugs:
 ===========
 
-	Under Windwos there are some Usability-Bugs:
-
-	Softedges dont apply: In order to circumvent it follow this instructions:
-	1. open the SoftEdge-Editor (Softedge Tab) 
-	2. select a softedge and a texturereference
-	3. close the Editor
-	4. repeat above steps.
-
-	If Input Source window is black even though an input source is selectable: Most likely a second source is switched on: select both of them until the system recognises the source.
+	currently no known bugs.
 
 
 Changelog:
 ==========
-	
+
+	SE R004		- From now on based on Max 6.
+				- New Feature: The output can be streamed via Syphon (OSX only)
+    			- Bugfixes: All known usability-bugs are gone
+    			- Source code repository on github
+    
 	SE R003		- Release of Windows Version
 
 	SE R002		- minor bugfixes, change of project file structure
