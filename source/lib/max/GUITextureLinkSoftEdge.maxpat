@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 303.0, 44.0, 1278.0, 745.0 ],
+		"rect" : [ 162.0, 44.0, 1278.0, 745.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -269,7 +269,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 507.0, 5.0, 25.0, 25.0 ]
 				}
 
@@ -323,7 +323,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 809.0, 99.0, 50.0, 18.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -713,14 +713,14 @@
 					"restore" : 					{
 						"blendluminance" : [ 0.62 ],
 						"blendpower" : [ 2.0 ],
-						"enable" : [ 1 ],
+						"enable" : [ 0 ],
 						"gammaBlue" : [ 4.0 ],
 						"gammaGreen" : [ 4.0 ],
 						"gammaRed" : [ 4.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u775013938"
+					"varname" : "u738012145"
 				}
 
 			}
@@ -1100,7 +1100,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.8, 0.5, 1.0 ],
+					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-23",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -1114,7 +1114,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.8, 0.5, 1.0 ],
+					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-32",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
