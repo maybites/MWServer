@@ -30,6 +30,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-136",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 1691.0, 465.0, 139.0, 20.0 ],
+					"text" : "jit.gl.slab @file td.mir.jxs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -295,7 +309,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1656.0, 457.0, 246.0, 20.0 ],
+					"patching_rect" : [ 1656.0, 500.0, 246.0, 20.0 ],
 					"text" : "jit.gl.syphonserver @servername MWServer"
 				}
 
@@ -2571,7 +2585,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 112.0, 137.0, 622.0, 18.0 ],
-													"text" : "DriveOSX:/Users/maybites/Desktop/newProj/"
+													"text" : "DriveOSX:/Users/maybites/Desktop/myProject/"
 												}
 
 											}
@@ -18605,7 +18619,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 356.0, 16.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u749000107"
+									"varname" : "u817002960"
 								}
 
 							}
@@ -27106,7 +27120,7 @@
 						"outputBackGround" : [ 2 ],
 						"outputLowerRightX" : [ 0 ],
 						"outputLowerRightY" : [ 1080 ],
-						"outputResolution" : [ 0 ],
+						"outputResolution" : [ 1 ],
 						"outputUpperLeftX" : [ -1920 ],
 						"outputUpperLeftY" : [ 0 ],
 						"outputUseCustomSettings" : [ 0 ],
@@ -27114,7 +27128,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u753000108"
+					"varname" : "u345009508"
 				}
 
 			}
@@ -27851,7 +27865,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 324.0, 77.0, 106.5, 18.0 ],
-													"text" : "off"
+													"text" : "syphon01"
 												}
 
 											}
@@ -38436,7 +38450,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 436.0, 9.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u640000128"
+									"varname" : "u588009523"
 								}
 
 							}
@@ -42761,7 +42775,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 215.0, 362.0, 1112.0, 480.0 ],
+						"rect" : [ 312.0, 347.0, 1112.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -44011,7 +44025,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-23",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44025,7 +44039,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-22",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44039,7 +44053,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-21",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44151,7 +44165,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-16",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44165,7 +44179,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-17",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44193,7 +44207,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-51",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44221,7 +44235,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-75",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44235,7 +44249,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-99",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44266,7 +44280,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-56",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44280,7 +44294,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-124",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44294,7 +44308,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
@@ -44801,6 +44815,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-135", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-136", 0 ]
 				}
 
 			}
@@ -45899,6 +45922,13 @@
 				"name" : "matrixDecoupling.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "softedge.json",
+				"bootpath" : "/Users/maybites/Desktop/myProject",
+				"patcherrelativepath" : "../../../../../../Desktop/myProject",
 				"type" : "JSON",
 				"implicit" : 1
 			}

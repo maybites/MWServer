@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 43.0, 495.0, 946.0, 288.0 ],
+		"rect" : [ 39.0, 543.0, 946.0, 288.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 15,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 205.0, 38.0, 224.0, 20.0 ],
+					"patching_rect" : [ 205.0, 35.0, 224.0, 20.0 ],
 					"text" : "textureParamsSplitter"
 				}
 
@@ -142,7 +142,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 104.0, 149.0, 18.0 ],
-									"text" : "0. 0. 0.78 1."
+									"text" : "0. 0. 1. 1."
 								}
 
 							}
@@ -723,7 +723,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 137.0, 221.0, 18.0 ],
+					"patching_rect" : [ 13.0, 140.0, 221.0, 18.0 ],
 					"text" : "color #2 #3 #4 1., text #1, position $1 $2"
 				}
 
@@ -737,8 +737,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 163.0, 239.0, 20.0 ],
-					"text" : "jit.gl.text2d input @depth_enable 0 @layer 2"
+					"patching_rect" : [ 13.0, 163.0, 299.0, 20.0 ],
+					"text" : "jit.gl.text2d input @depth_enable 0 @layer 2 @enable 0"
 				}
 
 			}
@@ -765,7 +765,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 140.0, 625.0, 18.0 ],
+					"patching_rect" : [ 327.0, 139.0, 625.0, 18.0 ],
 					"text" : "reset, glcolor #2 #3 #4, glbegin line_loop, glvertex $1 $2 0., glvertex $3 $2 0., glvertex $3 $4 0, glvertex $1 $4 0., glend"
 				}
 
@@ -779,8 +779,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 278.0, 164.0, 241.0, 20.0 ],
-					"text" : "jit.gl.sketch input @depth_enable 0 @layer 2"
+					"patching_rect" : [ 327.0, 163.0, 301.0, 20.0 ],
+					"text" : "jit.gl.sketch input @depth_enable 0 @layer 2 @enable 0"
 				}
 
 			}
