@@ -52,6 +52,9 @@ Known Bugs:
 Changelog:
 ==========
 
+	SE R005		- new Feature: Toggle on/off the menu bar for OSX
+				- Bugfix: the Property-File loads now
+	
 	SE R004		- From now on based on Max 6.
 				- New Feature: The output can be streamed via Syphon (OSX only)
     			- Bugfixes: All known usability-bugs are gone
