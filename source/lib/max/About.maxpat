@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 387.0, 51.0, 586.0, 577.0 ],
+		"rect" : [ 116.0, 75.0, 586.0, 577.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,39 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.0, 485.0, 222.0, 46.0 ],
+					"text" : ";\rmax launchbrowser http://meshwarpserver.org/?page_id=10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-28",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 290.0, 449.0, 225.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 213.0, 402.0, 126.92308, 17.0 ],
+					"rounded" : 4.0,
+					"text" : "check for latest release"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -130,7 +163,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.0, 398.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 222.0, 394.0, 118.0, 20.0 ],
+					"presentation_rect" : [ 217.5, 351.0, 118.0, 20.0 ],
 					"text" : "created by maybites"
 				}
 
@@ -267,15 +300,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"linecount" : 4,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 507.0, 456.0, 62.0 ],
+					"patching_rect" : [ 59.0, 507.0, 456.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 99.0, 480.0, 378.0, 62.0 ],
-					"text" : "MeshWarpServer is based on the Max6 Framwork (http://cycing74.com), portions of MeshWarpServer is based on the obj loader from http://code.google.com/p/saitoobjloader and it includes the syphon plugin for MaxMSP from http://syphon.v002.info"
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 92.5, 428.0, 393.0, 104.0 ],
+					"text" : "credits:\n\nbased on \n- the Max6 Framwork (http://cycing74.com), \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes the syphon plugin for MaxMSP from http://syphon.v002.info"
 				}
 
 			}
@@ -291,7 +324,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 449.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.0, 437.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 223.0, 538.0, 100.0, 20.0 ],
 					"text" : "close"
 				}
 
@@ -306,8 +339,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 366.0, 105.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 363.0, 105.0, 20.0 ],
-					"text" : "Release 004 beta"
+					"presentation_rect" : [ 237.0, 380.0, 78.0, 20.0 ],
+					"text" : "Release 005"
 				}
 
 			}
@@ -1349,16 +1382,16 @@
 ,
 					"patching_rect" : [ 37.5, 215.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p colorchanger"
@@ -1376,7 +1409,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.0, 328.0, 291.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 331.0, 347.0, 25.0 ],
+					"presentation_rect" : [ 108.0, 319.0, 347.0, 25.0 ],
 					"text" : "MeshWarpServer SE © by meshwarpserver.org"
 				}
 
@@ -1391,7 +1424,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.0, 109.0, 10.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 106.0, 10.0, 145.0 ]
+					"presentation_rect" : [ 345.0, 94.0, 10.0, 145.0 ]
 				}
 
 			}
@@ -1405,7 +1438,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 306.0, 109.0, 10.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 286.0, 106.0, 10.0, 145.0 ]
+					"presentation_rect" : [ 286.0, 94.0, 10.0, 145.0 ]
 				}
 
 			}
@@ -1419,7 +1452,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 290.0, 109.0, 10.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 106.0, 10.0, 145.0 ]
+					"presentation_rect" : [ 270.0, 94.0, 10.0, 145.0 ]
 				}
 
 			}
@@ -1433,7 +1466,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.0, 109.0, 10.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 211.0, 106.0, 10.0, 145.0 ]
+					"presentation_rect" : [ 211.0, 94.0, 10.0, 145.0 ]
 				}
 
 			}
@@ -1447,7 +1480,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.0, 98.0, 42.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 95.0, 42.0, 25.0 ]
+					"presentation_rect" : [ 361.0, 83.0, 42.0, 25.0 ]
 				}
 
 			}
@@ -1463,7 +1496,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 92.0, 42.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 89.0, 42.0, 58.0 ]
+					"presentation_rect" : [ 163.0, 77.0, 42.0, 58.0 ]
 				}
 
 			}
@@ -1477,7 +1510,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 168.0, 242.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 165.0, 242.0, 12.0 ]
+					"presentation_rect" : [ 163.0, 153.0, 242.0, 12.0 ]
 				}
 
 			}
@@ -1491,7 +1524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 260.0, 242.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 257.0, 242.0, 40.0 ]
+					"presentation_rect" : [ 163.0, 245.0, 242.0, 40.0 ]
 				}
 
 			}
@@ -1521,7 +1554,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 67.0, 240.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 64.0, 240.0, 37.0 ]
+					"presentation_rect" : [ 163.0, 52.0, 240.0, 37.0 ]
 				}
 
 			}
@@ -1535,7 +1568,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.0, 213.0, 25.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 210.0, 25.0, 41.0 ]
+					"presentation_rect" : [ 330.0, 198.0, 25.0, 41.0 ]
 				}
 
 			}
@@ -1549,7 +1582,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 306.0, 213.0, 25.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 286.0, 210.0, 25.0, 41.0 ]
+					"presentation_rect" : [ 286.0, 198.0, 25.0, 41.0 ]
 				}
 
 			}
@@ -1563,7 +1596,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 335.0, 203.0, 10.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 315.0, 200.0, 10.0, 39.0 ]
+					"presentation_rect" : [ 315.0, 188.0, 10.0, 39.0 ]
 				}
 
 			}
@@ -1577,7 +1610,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.0, 109.0, 25.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 106.0, 25.0, 41.0 ]
+					"presentation_rect" : [ 255.0, 94.0, 25.0, 41.0 ]
 				}
 
 			}
@@ -1591,7 +1624,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.0, 109.0, 25.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 211.0, 106.0, 25.0, 41.0 ]
+					"presentation_rect" : [ 211.0, 94.0, 25.0, 41.0 ]
 				}
 
 			}
@@ -1605,7 +1638,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 240.0, 43.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 237.0, 43.0, 24.0 ]
+					"presentation_rect" : [ 163.0, 225.0, 43.0, 24.0 ]
 				}
 
 			}
@@ -1619,7 +1652,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.0, 185.0, 44.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 182.0, 44.0, 22.0 ]
+					"presentation_rect" : [ 361.0, 170.0, 44.0, 22.0 ]
 				}
 
 			}
@@ -1633,7 +1666,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.0, 212.0, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 209.0, 44.0, 53.0 ]
+					"presentation_rect" : [ 361.0, 197.0, 44.0, 53.0 ]
 				}
 
 			}
@@ -1647,7 +1680,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 261.0, 123.0, 10.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.0, 120.0, 10.0, 39.0 ]
+					"presentation_rect" : [ 241.0, 108.0, 10.0, 39.0 ]
 				}
 
 			}
@@ -1661,7 +1694,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 156.0, 42.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 153.0, 42.0, 21.0 ]
+					"presentation_rect" : [ 163.0, 141.0, 42.0, 21.0 ]
 				}
 
 			}
@@ -1675,7 +1708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 185.0, 242.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 182.0, 242.0, 12.0 ]
+					"presentation_rect" : [ 163.0, 170.0, 242.0, 12.0 ]
 				}
 
 			}
@@ -1687,9 +1720,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.0, 375.0, 100.0, 50.0 ],
-					"pic" : "DriveOSX:/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_development/source/lib/imgs/IconButton.png",
+					"pic" : "IconButton.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 122.0, 25.0, 321.0, 310.187134 ]
+					"presentation_rect" : [ 122.0, 13.0, 321.0, 310.187134 ]
 				}
 
 			}
@@ -1880,6 +1913,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -2127,7 +2169,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "IconButton.png",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/imgs",
+				"patcherrelativepath" : "../imgs",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
