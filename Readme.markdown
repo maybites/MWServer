@@ -52,6 +52,9 @@ Known Bugs:
 Changelog:
 ==========
 
+	SE R006		- VideoTutorial No5 files included
+				- several bugfixes of bugs introduced with R004
+
 	SE R005		- new Feature: Toggle on/off the menu bar for OSX
 				- Bugfix: the Property-File loads now
 	
