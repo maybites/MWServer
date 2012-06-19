@@ -222,12 +222,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p gate"
@@ -784,12 +784,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p mac"
@@ -1142,12 +1142,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p windows"
@@ -1299,12 +1299,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p setInputGUI"
@@ -1819,12 +1819,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p setGUISize"
@@ -2059,12 +2059,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p autostart"
@@ -2503,12 +2503,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p saveasJSON"
@@ -2585,7 +2585,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 112.0, 137.0, 622.0, 18.0 ],
-													"text" : "DriveOSX:/Users/maybites/Desktop/myProject/"
+													"text" : "DriveOSX:/Users/maybites/Desktop/seAdvanced/"
 												}
 
 											}
@@ -2771,12 +2771,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p sendSetupFolder"
@@ -2883,12 +2883,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p saveMeshes"
@@ -3287,12 +3287,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p getPropertiesPath"
@@ -4341,12 +4341,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p storeProperties",
@@ -5422,12 +5422,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p remoteControlHelp"
@@ -6048,12 +6048,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p menumanager",
@@ -7184,12 +7184,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p transformCorrections"
@@ -7601,12 +7601,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p gate"
@@ -8015,12 +8015,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p receiveSoftEdgeTextureParams"
@@ -8216,12 +8216,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p gate"
@@ -8417,12 +8417,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p gate"
@@ -8788,12 +8788,12 @@
 																		"digest" : "",
 																		"default_fontname" : "Arial",
 																		"fontname" : "Arial",
+																		"tags" : "",
 																		"default_fontsize" : 12.0,
 																		"globalpatchername" : "",
 																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0,
-																		"tags" : ""
+																		"fontsize" : 12.0
 																	}
 ,
 																	"text" : "p rotation"
@@ -10150,12 +10150,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p calcProportions"
@@ -10658,12 +10658,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p editorTexture"
@@ -10891,12 +10891,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p backgroundColor"
@@ -11556,12 +11556,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p viewportSelector"
@@ -12627,12 +12627,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p verticeTransformation"
@@ -12802,12 +12802,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p tex_position"
@@ -12977,12 +12977,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p main_position"
@@ -13599,12 +13599,12 @@
 																		"digest" : "",
 																		"default_fontname" : "Arial",
 																		"fontname" : "Arial",
+																		"tags" : "",
 																		"default_fontsize" : 12.0,
 																		"globalpatchername" : "",
 																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0,
-																		"tags" : ""
+																		"fontsize" : 12.0
 																	}
 ,
 																	"text" : "p drawSelectionBox"
@@ -14390,12 +14390,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p VerticeSelection"
@@ -15206,12 +15206,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p textureTransformation"
@@ -15811,12 +15811,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p textureSelection"
@@ -17487,12 +17487,12 @@
 																		"digest" : "",
 																		"default_fontname" : "Arial",
 																		"fontname" : "Arial",
+																		"tags" : "",
 																		"default_fontsize" : 12.0,
 																		"globalpatchername" : "",
 																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0,
-																		"tags" : ""
+																		"fontsize" : 12.0
 																	}
 ,
 																	"text" : "p keyAndMouseCombos"
@@ -17823,12 +17823,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p mouseCombos"
@@ -18526,12 +18526,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p eventHandler"
@@ -18619,7 +18619,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 356.0, 16.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u817002960"
+									"varname" : "u383007984"
 								}
 
 							}
@@ -19402,12 +19402,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p keyGrabControl"
@@ -19793,12 +19793,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p help"
@@ -21038,12 +21038,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p setup"
@@ -21440,12 +21440,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p keyCommands"
@@ -22760,12 +22760,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p SEdgeEditor",
@@ -24362,12 +24362,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p calcDesktopOutput"
@@ -24532,12 +24532,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p setColor"
@@ -25067,12 +25067,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p backgroundColor"
@@ -25975,12 +25975,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p External Monitor"
@@ -26176,12 +26176,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p esc-fullscreen"
@@ -26225,8 +26225,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1315.0, 104.0, 103.0, 20.0 ],
-					"text" : "jit.gl.render output"
+					"patching_rect" : [ 1315.0, 104.0, 154.0, 20.0 ],
+					"text" : "jit.gl.render output @ortho 2"
 				}
 
 			}
@@ -27036,12 +27036,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p schedulerlab"
@@ -27097,8 +27097,8 @@
 					"patching_rect" : [ 485.0, 258.0, 276.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
-						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 766, 44, 1220, 302 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage storage @savemode 2 @autorestore 0",
@@ -27121,14 +27121,14 @@
 						"outputLowerRightX" : [ 0 ],
 						"outputLowerRightY" : [ 1080 ],
 						"outputResolution" : [ 1 ],
-						"outputUpperLeftX" : [ -1920 ],
+						"outputUpperLeftX" : [ -3920 ],
 						"outputUpperLeftY" : [ 0 ],
 						"outputUseCustomSettings" : [ 0 ],
 						"renderBangRouting" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u345009508"
+					"varname" : "u264007996"
 				}
 
 			}
@@ -27773,12 +27773,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p gate"
@@ -27865,7 +27865,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 324.0, 77.0, 106.5, 18.0 ],
-													"text" : "syphon01"
+													"text" : "movie01"
 												}
 
 											}
@@ -28148,12 +28148,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p receiveEditorTextureParams"
@@ -28349,12 +28349,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p gate"
@@ -28550,12 +28550,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p gate"
@@ -28882,12 +28882,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p calcProportions"
@@ -29375,12 +29375,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p editorTexture"
@@ -29608,12 +29608,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p backgroundColor"
@@ -30475,12 +30475,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p viewportSelector"
@@ -30751,12 +30751,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p keyGrabbing"
@@ -31786,12 +31786,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p verticeTransformation"
@@ -31989,12 +31989,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p side_position"
@@ -32164,12 +32164,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p top_position"
@@ -32339,12 +32339,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p tex_position"
@@ -32514,12 +32514,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p main_position"
@@ -33136,12 +33136,12 @@
 																		"digest" : "",
 																		"default_fontname" : "Arial",
 																		"fontname" : "Arial",
+																		"tags" : "",
 																		"default_fontsize" : 12.0,
 																		"globalpatchername" : "",
 																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0,
-																		"tags" : ""
+																		"fontsize" : 12.0
 																	}
 ,
 																	"text" : "p drawSelectionBox"
@@ -33927,12 +33927,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p VerticeSelection"
@@ -34743,12 +34743,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p textureTransformation"
@@ -35348,12 +35348,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p textureSelection"
@@ -37052,12 +37052,12 @@
 																		"digest" : "",
 																		"default_fontname" : "Arial",
 																		"fontname" : "Arial",
+																		"tags" : "",
 																		"default_fontsize" : 12.0,
 																		"globalpatchername" : "",
 																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0,
-																		"tags" : ""
+																		"fontsize" : 12.0
 																	}
 ,
 																	"text" : "p keyAndMouseCombos"
@@ -37388,12 +37388,12 @@
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
 														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p mouseCombos"
@@ -38399,12 +38399,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p eventHandler"
@@ -38450,7 +38450,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 436.0, 9.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u588009523"
+									"varname" : "u562007998"
 								}
 
 							}
@@ -39290,12 +39290,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p keyGrabControl"
@@ -39785,12 +39785,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p help"
@@ -41067,12 +41067,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p setup"
@@ -41469,12 +41469,12 @@
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p keyCommands"
@@ -42746,12 +42746,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p MeshWarpEditor",
@@ -43811,12 +43811,12 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p inputWindow"
@@ -45926,9 +45926,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "softedge.json",
-				"bootpath" : "/Users/maybites/Desktop/myProject",
-				"patcherrelativepath" : "../../../../../../Desktop/myProject",
+				"name" : "project.json",
+				"bootpath" : "/Users/maybites/Desktop/seAdvanced",
+				"patcherrelativepath" : "../../../../../../Desktop/seAdvanced",
 				"type" : "JSON",
 				"implicit" : 1
 			}
