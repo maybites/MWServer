@@ -2,9 +2,9 @@
 MeshWarpServer SE
 =================
 		
-MeshWarpServer is a MaxMSPJitter-Standalone Application for OSX only. It allows you to create video projection installation that wrap any kind of video-content onto real world objects.
+MeshWarpServer is a MaxMSPJitter-Patch for OSX and Windows. It allows you to create video projection installation that wrap any kind of video-content onto real world objects.
 
-Capture Modul8, Processing, Flash, Unity3D, Blender, Torque,  Jitter, GEM, Adobe Photoshop, Microsoft Office, Terminal, or any other Mac OS X application in realtime (with the help of a capture card) and project the captured movie as a perfect fit on every imaginable object with the help of one or many beamer.
+Capture Modul8, Processing, Flash, Unity3D, Blender, Torque,  Jitter, GEM, Adobe Photoshop, Microsoft Office, Terminal, or any other Mac OS X application in realtime (with the help of a capture card or via Syphon (OSX only)) and project the captured movie as a perfect fit on every imaginable object with the help of one or many beamer.
 	
 MeshWarpServer has been optimized for large movies (up to 8000x1200 pixels), however it requires a high performance hardware to run smoothly.
 
