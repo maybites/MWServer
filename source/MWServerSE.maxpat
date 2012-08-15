@@ -30,6 +30,63 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-147",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 456.75, 142.0, 107.0, 20.0 ],
+					"text" : "r setMenuVisibility"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-142",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 456.75, 171.0, 63.0, 18.0 ],
+					"text" : "hidden $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-145",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 580.0, 142.0, 32.5, 20.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-170",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "int", "int", "int", "int", "int" ],
+					"patching_rect" : [ 580.0, 177.0, 89.0, 20.0 ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "MeshWarpServer…", ";", "#X", "open", 2, ";", "#X", "newitem", 1, ";", "#X", "saveas", 4, ";", "#X", "closeitem", ";", "#X", "file", 5, "-", ";", "#X", "file", 6, "Properties...", ";", "#X", "file", 7, "OSC...", ";", "#X", "file", 8, "-", ";", "#X", "file", 9, "About", ";", "#X", "file", 10, "Help", ";", "#X", "end", ";" ],
+					"text" : "menubar 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-136",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -218,16 +275,16 @@
 ,
 					"patching_rect" : [ 1656.0, 427.0, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p gate"
@@ -323,7 +380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 419.25, 238.0, 36.0, 20.0 ],
+					"patching_rect" : [ 400.0, 142.0, 36.0, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -337,7 +394,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.25, 267.0, 32.5, 18.0 ],
+					"patching_rect" : [ 417.0, 171.0, 32.5, 18.0 ],
 					"text" : "0"
 				}
 
@@ -346,6 +403,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-50",
 					"items" : [ "File", ",", "Project", "new...", ",", "Project", "open...", ",", "Project", "save", ",", "Project", "save", "as...", ",", "----", ",", "Properties...", ",", "OSC...", ",", "----", ",", "About" ],
 					"labelclick" : 1,
@@ -354,9 +412,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 485.0, 199.0, 100.0, 18.0 ],
+					"patching_rect" : [ 417.0, 195.0, 100.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 7.0, 110.0, 18.0 ]
+					"presentation_rect" : [ 54.0, 7.0, 110.0, 18.0 ]
 				}
 
 			}
@@ -780,16 +838,16 @@
 ,
 									"patching_rect" : [ 248.0, 81.0, 43.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p mac"
@@ -1138,16 +1196,16 @@
 ,
 									"patching_rect" : [ 20.0, 82.0, 67.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p windows"
@@ -1295,16 +1353,16 @@
 ,
 					"patching_rect" : [ 953.0, 114.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p setInputGUI"
@@ -1815,16 +1873,16 @@
 ,
 					"patching_rect" : [ 507.0, 92.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p setGUISize"
@@ -2055,16 +2113,16 @@
 ,
 					"patching_rect" : [ 485.0, 284.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p autostart"
@@ -2108,7 +2166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 617.0, 81.0, 237.0, 20.0 ],
+					"patching_rect" : [ 617.0, 81.0, 241.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 171.0, 6.0, 83.0, 20.0 ],
 					"text" : "< -- start here"
@@ -2149,7 +2207,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-48",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
@@ -2160,7 +2218,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 589.0, 96.0, 787.0, 480.0 ],
+						"rect" : [ 266.0, 448.0, 787.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2180,6 +2238,33 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"linecount" : 4,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 623.083374, 211.0, 149.0, 60.0 ],
+									"text" : ";\rmax launchbrowser http://meshwarpserver.org/?page_id=77"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-8",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 591.0, 31.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2240,11 +2325,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 8,
-									"numoutlets" : 8,
-									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 146.0, 83.0, 481.0, 20.0 ],
-									"text" : "sel 1 2 3 4 6 7 9"
+									"numinlets" : 9,
+									"numoutlets" : 9,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+									"patching_rect" : [ 55.5, 81.0, 667.666687, 20.0 ],
+									"text" : "sel 1 2 3 4 6 7 9 10"
 								}
 
 							}
@@ -2499,16 +2584,16 @@
 ,
 									"patching_rect" : [ 146.0, 215.0, 91.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p saveasJSON"
@@ -2585,7 +2670,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 112.0, 137.0, 622.0, 18.0 ],
-													"text" : "DriveOSX:/Users/maybites/Desktop/seAdvanced/"
+													"text" : "DriveOSX:/Users/maybites/Desktop/StadtFest/MWServerBaden/"
 												}
 
 											}
@@ -2767,16 +2852,16 @@
 ,
 									"patching_rect" : [ 15.0, 397.0, 112.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p sendSetupFolder"
@@ -2879,16 +2964,16 @@
 ,
 									"patching_rect" : [ 226.0, 344.0, 88.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p saveMeshes"
@@ -2968,7 +3053,7 @@
 											"revision" : 5
 										}
 ,
-										"rect" : [ 284.0, 352.0, 498.0, 130.0 ],
+										"rect" : [ 270.0, 216.0, 514.0, 134.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -2988,6 +3073,19 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-147",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 678.5, 175.0, 109.0, 20.0 ],
+													"text" : "s setMenuVisibility"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -3283,16 +3381,16 @@
 ,
 													"patching_rect" : [ 26.0, 92.0, 117.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p getPropertiesPath"
@@ -3909,6 +4007,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-147", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-18", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-19", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -4328,7 +4435,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "properties.txt",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -4337,16 +4444,16 @@
 ,
 									"patching_rect" : [ 323.666687, 211.0, 102.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p storeProperties",
@@ -5418,16 +5525,16 @@
 ,
 									"patching_rect" : [ 476.0, 211.0, 121.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p remoteControlHelp"
@@ -5786,6 +5893,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 7 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-126", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5988,6 +6104,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-165", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-98", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6017,25 +6142,25 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "remoteControl.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "properties.txt",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "About.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "IconButton.png",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/imgs",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/imgs",
 								"type" : "PNG ",
 								"implicit" : 1
 							}
@@ -6044,16 +6169,16 @@
 ,
 					"patching_rect" : [ 485.0, 226.0, 98.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p menumanager",
@@ -6294,7 +6419,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1093.0, 758.0, 147.0, 18.0 ],
-									"text" : "scale 1. 1. 1."
+									"text" : "scale 0. 0. 0."
 								}
 
 							}
@@ -7165,13 +7290,13 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "mult.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "add.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -7180,16 +7305,16 @@
 ,
 									"patching_rect" : [ 537.0, 795.0, 133.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p transformCorrections"
@@ -7597,16 +7722,16 @@
 ,
 													"patching_rect" : [ 312.0, 212.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p gate"
@@ -8011,16 +8136,16 @@
 ,
 													"patching_rect" : [ 17.0, 20.0, 189.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p receiveSoftEdgeTextureParams"
@@ -8212,16 +8337,16 @@
 ,
 													"patching_rect" : [ 313.0, 302.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p gate"
@@ -8413,16 +8538,16 @@
 ,
 													"patching_rect" : [ 313.0, 394.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p gate"
@@ -8784,16 +8909,16 @@
 ,
 																	"patching_rect" : [ 41.0, 494.0, 61.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"digest" : "",
-																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
-																		"tags" : "",
-																		"default_fontsize" : 12.0,
-																		"globalpatchername" : "",
-																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0
+																		"default_fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"tags" : "",
+																		"fontname" : "Arial",
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"digest" : ""
 																	}
 ,
 																	"text" : "p rotation"
@@ -10119,25 +10244,25 @@
  ],
 														"dependency_cache" : [ 															{
 																"name" : "div.maxpat",
-																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 																"type" : "JSON",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "mult.maxpat",
-																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 																"type" : "JSON",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "softEdgeParamsSplitter.maxpat",
-																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 																"type" : "JSON",
 																"implicit" : 1
 															}
 , 															{
 																"name" : "sub.maxpat",
-																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+																"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 																"type" : "JSON",
 																"implicit" : 1
 															}
@@ -10146,16 +10271,16 @@
 ,
 													"patching_rect" : [ 53.0, 282.0, 153.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p calcProportions"
@@ -10609,43 +10734,43 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "div.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "mult.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "softEdgeParamsSplitter.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "sub.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "receiveSoftEdgeTexture.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "receiveTextureDims.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "matrixDecoupling.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -10654,16 +10779,16 @@
 ,
 									"patching_rect" : [ 451.0, 190.0, 90.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p editorTexture"
@@ -10887,16 +11012,16 @@
 ,
 									"patching_rect" : [ 999.0, 362.0, 112.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p backgroundColor"
@@ -11552,16 +11677,16 @@
 ,
 									"patching_rect" : [ 1308.0, 353.0, 109.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p viewportSelector"
@@ -12623,16 +12748,16 @@
 ,
 													"patching_rect" : [ 680.0, 578.0, 166.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p verticeTransformation"
@@ -12798,16 +12923,16 @@
 ,
 													"patching_rect" : [ 172.0, 523.0, 85.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p tex_position"
@@ -12973,16 +13098,16 @@
 ,
 													"patching_rect" : [ 242.0, 171.0, 96.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p main_position"
@@ -13595,16 +13720,16 @@
 ,
 																	"patching_rect" : [ 487.0, 340.0, 117.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"digest" : "",
-																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
-																		"tags" : "",
-																		"default_fontsize" : 12.0,
-																		"globalpatchername" : "",
-																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0
+																		"default_fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"tags" : "",
+																		"fontname" : "Arial",
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"digest" : ""
 																	}
 ,
 																	"text" : "p drawSelectionBox"
@@ -14386,16 +14511,16 @@
 ,
 													"patching_rect" : [ 854.0, 580.0, 148.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p VerticeSelection"
@@ -15202,16 +15327,16 @@
 ,
 													"patching_rect" : [ 390.0, 576.0, 138.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p textureTransformation"
@@ -15807,16 +15932,16 @@
 ,
 													"patching_rect" : [ 544.0, 575.0, 108.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p textureSelection"
@@ -17483,16 +17608,16 @@
 ,
 																	"patching_rect" : [ 391.0, 254.0, 270.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"digest" : "",
-																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
-																		"tags" : "",
-																		"default_fontsize" : 12.0,
-																		"globalpatchername" : "",
-																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0
+																		"default_fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"tags" : "",
+																		"fontname" : "Arial",
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"digest" : ""
 																	}
 ,
 																	"text" : "p keyAndMouseCombos"
@@ -17819,16 +17944,16 @@
 ,
 													"patching_rect" : [ 632.0, 53.0, 102.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p mouseCombos"
@@ -18501,19 +18626,19 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "EditorEventHandler.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "div.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "mult.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -18522,16 +18647,16 @@
 ,
 									"patching_rect" : [ 1252.0, 679.0, 92.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p eventHandler"
@@ -18619,7 +18744,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 356.0, 16.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u383007984"
+									"varname" : "u596008002"
 								}
 
 							}
@@ -19398,16 +19523,16 @@
 ,
 									"patching_rect" : [ 1215.0, 566.0, 105.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p keyGrabControl"
@@ -19789,16 +19914,16 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 3.0, 130.0, 39.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p help"
@@ -21034,16 +21159,16 @@
 ,
 									"patching_rect" : [ 575.0, 552.0, 40.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p setup"
@@ -21436,16 +21561,16 @@
 ,
 									"patching_rect" : [ 1255.0, 25.0, 78.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p keyCommands"
@@ -22699,55 +22824,55 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "EditorEventHandler.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "div.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "mult.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "softEdgeParamsSplitter.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "sub.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "receiveSoftEdgeTexture.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "receiveTextureDims.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "matrixDecoupling.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "add.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -22756,16 +22881,16 @@
 ,
 					"patching_rect" : [ 994.0, 316.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p SEdgeEditor",
@@ -24358,16 +24483,16 @@
 ,
 					"patching_rect" : [ 1276.0, 282.0, 356.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p calcDesktopOutput"
@@ -24528,16 +24653,16 @@
 ,
 					"patching_rect" : [ 1162.0, 179.0, 65.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p setColor"
@@ -25063,16 +25188,16 @@
 ,
 					"patching_rect" : [ 1295.5, 353.0, 112.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p backgroundColor"
@@ -25971,16 +26096,16 @@
 ,
 					"patching_rect" : [ 1276.0, 128.0, 122.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p External Monitor"
@@ -26172,16 +26297,16 @@
 ,
 					"patching_rect" : [ 1396.824707, 150.958557, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontname" : "Arial",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p esc-fullscreen"
@@ -27032,16 +27157,16 @@
 ,
 					"patching_rect" : [ 391.0, 411.0, 89.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p schedulerlab"
@@ -27117,7 +27242,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 763.0, 258.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"outputBackGround" : [ 2 ],
+						"outputBackGround" : [ 1 ],
 						"outputLowerRightX" : [ 0 ],
 						"outputLowerRightY" : [ 1080 ],
 						"outputResolution" : [ 1 ],
@@ -27128,7 +27253,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u264007996"
+					"varname" : "u316008014"
 				}
 
 			}
@@ -27233,6 +27358,17 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-76",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 261.0, 459.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-74",
@@ -27254,7 +27390,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 331.0, 476.0, 72.0, 20.0 ],
+									"patching_rect" : [ 359.0, 471.0, 72.0, 20.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -27769,16 +27905,16 @@
 ,
 													"patching_rect" : [ 275.0, 182.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p gate"
@@ -28144,16 +28280,16 @@
 ,
 													"patching_rect" : [ 17.0, 20.0, 171.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p receiveEditorTextureParams"
@@ -28345,16 +28481,16 @@
 ,
 													"patching_rect" : [ 276.0, 260.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p gate"
@@ -28546,16 +28682,16 @@
 ,
 													"patching_rect" : [ 276.0, 338.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p gate"
@@ -28878,16 +29014,16 @@
 ,
 													"patching_rect" : [ 14.0, 256.0, 103.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p calcProportions"
@@ -29350,19 +29486,19 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "receiveUserviewTexture.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "receiveTextureDims.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "matrixDecoupling.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -29371,16 +29507,16 @@
 ,
 									"patching_rect" : [ 474.0, 133.0, 90.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p editorTexture"
@@ -29604,16 +29740,16 @@
 ,
 									"patching_rect" : [ 984.0, 347.0, 112.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p backgroundColor"
@@ -30471,16 +30607,16 @@
 ,
 									"patching_rect" : [ 1293.0, 338.0, 109.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p viewportSelector"
@@ -30747,16 +30883,16 @@
 ,
 													"patching_rect" : [ 45.0, 360.0, 69.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p keyGrabbing"
@@ -31782,16 +31918,16 @@
 ,
 													"patching_rect" : [ 680.0, 578.0, 166.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p verticeTransformation"
@@ -31985,16 +32121,16 @@
 ,
 													"patching_rect" : [ 242.0, 390.0, 91.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p side_position"
@@ -32160,16 +32296,16 @@
 ,
 													"patching_rect" : [ 242.0, 285.0, 85.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p top_position"
@@ -32335,16 +32471,16 @@
 ,
 													"patching_rect" : [ 172.0, 523.0, 85.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p tex_position"
@@ -32510,16 +32646,16 @@
 ,
 													"patching_rect" : [ 242.0, 171.0, 96.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p main_position"
@@ -33132,16 +33268,16 @@
 ,
 																	"patching_rect" : [ 487.0, 340.0, 117.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"digest" : "",
-																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
-																		"tags" : "",
-																		"default_fontsize" : 12.0,
-																		"globalpatchername" : "",
-																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0
+																		"default_fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"tags" : "",
+																		"fontname" : "Arial",
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"digest" : ""
 																	}
 ,
 																	"text" : "p drawSelectionBox"
@@ -33923,16 +34059,16 @@
 ,
 													"patching_rect" : [ 854.0, 580.0, 148.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p VerticeSelection"
@@ -34739,16 +34875,16 @@
 ,
 													"patching_rect" : [ 390.0, 576.0, 138.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p textureTransformation"
@@ -35344,16 +35480,16 @@
 ,
 													"patching_rect" : [ 544.0, 575.0, 108.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p textureSelection"
@@ -37048,16 +37184,16 @@
 ,
 																	"patching_rect" : [ 391.0, 254.0, 270.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"digest" : "",
-																		"default_fontname" : "Arial",
-																		"fontname" : "Arial",
-																		"tags" : "",
-																		"default_fontsize" : 12.0,
-																		"globalpatchername" : "",
-																		"description" : "",
 																		"fontface" : 0,
-																		"fontsize" : 12.0
+																		"default_fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"tags" : "",
+																		"fontname" : "Arial",
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"digest" : ""
 																	}
 ,
 																	"text" : "p keyAndMouseCombos"
@@ -37384,16 +37520,16 @@
 ,
 													"patching_rect" : [ 632.0, 53.0, 102.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"tags" : "",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"default_fontname" : "Arial",
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"fontname" : "Arial",
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"digest" : ""
 													}
 ,
 													"text" : "p mouseCombos"
@@ -38374,19 +38510,19 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "EditorEventHandler.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "div.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "mult.maxpat",
-												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+												"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -38395,16 +38531,16 @@
 ,
 									"patching_rect" : [ 1237.0, 664.0, 92.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p eventHandler"
@@ -38450,7 +38586,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 436.0, 9.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u562007998"
+									"varname" : "u659008016"
 								}
 
 							}
@@ -39286,16 +39422,16 @@
 ,
 									"patching_rect" : [ 1200.0, 551.0, 105.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p keyGrabControl"
@@ -39375,7 +39511,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 331.0, 502.0, 100.0, 17.0 ],
+									"patching_rect" : [ 332.0, 502.0, 100.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 194.0, 117.0, 96.0, 17.0 ]
 								}
@@ -39781,16 +39917,16 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 744.0, 118.0, 39.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p help"
@@ -41063,16 +41199,16 @@
 ,
 									"patching_rect" : [ 560.0, 537.0, 40.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p setup"
@@ -41465,16 +41601,16 @@
 ,
 									"patching_rect" : [ 1349.0, 7.0, 78.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
-										"description" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"tags" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"digest" : ""
 									}
 ,
 									"text" : "p keyCommands"
@@ -42059,6 +42195,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -42494,6 +42639,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-76", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-64", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -42667,73 +42821,73 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "MeshConfigSelector.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "MeshConfigCollection.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "MeshConfigurator.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "RandomFileselector.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "RandomFileselector.js",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "MeshConfiguratorRemoteHelper.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "EditorEventHandler.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "div.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "mult.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "receiveUserviewTexture.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "receiveTextureDims.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "matrixDecoupling.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -42742,16 +42896,16 @@
 ,
 					"patching_rect" : [ 412.0, 779.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p MeshWarpEditor",
@@ -43019,33 +43173,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 311.0, 560.0, 201.0, 20.0 ],
-									"text" : "drawSoftEdgeOnVideoTable 1. 0. 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-30",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 311.0, 536.0, 75.0, 20.0 ],
-									"text" : "r setEdge06"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -43064,8 +43191,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 311.0, 482.0, 75.0, 20.0 ],
-									"text" : "r setEdge05"
+									"patching_rect" : [ 311.0, 482.0, 95.0, 20.0 ],
+									"text" : "r setsoftEdge05"
 								}
 
 							}
@@ -43524,15 +43651,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-30", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -43768,37 +43886,37 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "drawTextureOnVideoTable.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "textureParamsSplitter.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "drawSoftEdgeOnVideoTable.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "softEdgeParamsSplitter.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "receiveTextureDims.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "receiveInputTexture.maxpat",
-								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+								"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -43807,16 +43925,16 @@
 ,
 					"patching_rect" : [ 1131.0, 551.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p inputWindow"
@@ -44193,48 +44311,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-54",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 719.0, 414.0, 64.0, 34.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 5.0, 310.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
-					"id" : "obj-51",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 763.0, 414.0, 64.0, 34.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 341.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "bpatcher",
-					"name" : "GUIInput_OSX.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 40.0, 364.0, 183.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 1.0, 371.0, 233.0 ],
-					"varname" : "GUIInputCollection"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
 					"id" : "obj-75",
 					"ignoreclick" : 1,
@@ -44317,6 +44393,63 @@
 					"patching_rect" : [ 686.0, 427.0, 64.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 362.0, 265.0, 10.0, 516.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-120",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 627.0, 130.0, 91.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 55.0, 6.0, 86.0, 20.0 ],
+					"text" : "use File Menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-54",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 719.0, 414.0, 64.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.0, 5.0, 310.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.4, 0.2, 1.0 ],
+					"id" : "obj-51",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 763.0, 414.0, 64.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.0, 341.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "GUIInput_OSX.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 52.0, 364.0, 183.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 1.0, 371.0, 233.0 ],
+					"varname" : "GUIInputCollection"
 				}
 
 			}
@@ -44883,10 +45016,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-142", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-102", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-143", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-145", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-142", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-147", 0 ]
 				}
 
 			}
@@ -44923,6 +45083,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-152", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-145", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-153", 0 ]
 				}
 
 			}
@@ -45032,6 +45201,24 @@
 					"hidden" : 0,
 					"midpoints" : [ 23.5, 827.0, 401.5, 827.0, 401.5, 718.0, 421.5, 718.0 ],
 					"source" : [ "obj-163", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-170", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-170", 0 ]
 				}
 
 			}
@@ -45312,6 +45499,7 @@
 					"destination" : [ "obj-98", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 426.5, 222.0, 391.0, 222.0, 391.0, 132.0, 409.5, 132.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -45637,7 +45825,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 428.75, 290.0, 463.125, 290.0, 463.125, 195.0, 494.5, 195.0 ],
+					"midpoints" : [ 426.5, 182.5, 426.5, 182.5 ],
 					"source" : [ "obj-97", 0 ]
 				}
 
@@ -45654,343 +45842,343 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "GUIInput_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputCollection_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputQTMovieCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputQTMovieSetup.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.js",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureGateQTMovie.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputSyphonCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputSyphonSetup.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureGateSyphon.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputCaptureCollection_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputCaptureSetup_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLink.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkEnable.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkBrCoSa.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkMask.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkResample.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkSoftEdge.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkSoftEdgeParam.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "softEdgeParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdge.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeParam.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeMeshConfig.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawTextureOnVideoTable.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "textureParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawSoftEdgeOnVideoTable.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveTextureDims.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveInputTexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigSelector.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigurator.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfiguratorRemoteHelper.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EditorEventHandler.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "div.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mult.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveUserviewTexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixDecoupling.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "project.json",
-				"bootpath" : "/Users/maybites/Desktop/seAdvanced",
-				"patcherrelativepath" : "../../../../../../Desktop/seAdvanced",
+				"name" : "setup.json",
+				"bootpath" : "/Users/maybites/Desktop/StadtFest/MWServerBaden",
+				"patcherrelativepath" : "../../../../../Desktop/StadtFest/MWServerBaden",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gradientEditor.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureChain.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remoteControl.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveSoftEdgeTexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "add.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "properties.txt",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "About.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "../source/lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IconButton.png",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/imgs",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/imgs",
 				"patcherrelativepath" : "../source/lib/imgs",
 				"type" : "PNG ",
 				"implicit" : 1

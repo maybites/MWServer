@@ -52,6 +52,10 @@ Known Bugs:
 Changelog:
 ==========
 
+	SE R007		- enabled Menu Bar for OSX again. When it is set invisible inside Properties, the pulldown menu will appear.
+				- the color settings for the meshes fixed.
+				- Softedge 4 and 5 work now again
+
 	SE R006		- VideoTutorial No5 files included
 				- several bugfixes of bugs introduced with R004
 

@@ -304,8 +304,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.0, 353.0, 90.0, 20.0 ],
-					"text" : "s setsoftEdge4"
+					"patching_rect" : [ 232.0, 353.0, 97.0, 20.0 ],
+					"text" : "s setsoftEdge04"
 				}
 
 			}
@@ -1040,28 +1040,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "GUISoftEdgeParam.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeMeshConfig.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.js",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/mayBites/110221_MeshWarpServer/01_dev/source/lib/max",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
