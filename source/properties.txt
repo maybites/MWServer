@@ -1,1 +1,1 @@
-1, 0;2, "DriveOSX:/Users/maybites/Desktop/Kunsthaus Uri/Altdorf/projekt.json";3, 1;5, 1;4, 0;
+1_autostart, 0;2_projectpath, DriveOSX:/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/demos/No1_cusco/project.json;5_menuinvisibility, 0;4_outputwindow, 0;3_mouseinvisibility, 0;
