@@ -30,6 +30,8 @@ First download and install MaxMSPJitter from http://cycling74.org. It has a 30 d
 If you wanna use syphon functionality (OSX only) you need to download and install the Syphon Plugins for MaxMSP: http://syphon.v002.info/
 
 If you run Windows on your machine you have to download and install Java from the official website: http://www.java.com and you need to download Quicktime from apple: http://www.apple.com/quicktime/download/
+
+You also need the latest maybitesCore.jar library.
 	
 Now you are set.
 	
