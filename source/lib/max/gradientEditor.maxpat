@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 189.0, 83.0, 417.0, 232.0 ],
+		"rect" : [ 558.0, 53.0, 423.0, 237.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -115,6 +115,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-47",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -130,6 +131,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -164,6 +166,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -192,6 +195,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-42",
 					"maxclass" : "comment",
@@ -232,7 +236,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 163.0, 95.0, 771.0, 472.0 ],
@@ -529,7 +533,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 17.0, 243.0, 583.0, 32.0 ],
+									"patching_rect" : [ 17.0, 243.0, 583.0, 31.0 ],
 									"text" : "clear, 0 1., 46.81934 0.588889, 58.015266 0.561111, 68.702293 0.511111, 78.371498 0.438889, 87.277351 0.311111, $1 0."
 								}
 
@@ -1019,22 +1023,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 125.0, 125.0, 368.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p edit"
@@ -1132,16 +1135,16 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 549.0, 414.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"alpha" : [ 100.0, 0.0, 1.0, 0.0, 1.0, 0, 46.81934, 0.588889, 0, 58.015266, 0.561111, 0, 68.702293, 0.511111, 0, 78.371498, 0.438889, 0, 87.277351, 0.311111, 0, 100.0, 0.0, 0 ],
-						"gammaBlue" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0 ],
-						"gammaGreen" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0 ],
-						"gammaRed" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0 ],
+						"alpha" : [ 100.0, 0.0, 1.0, 0.0, 1.0, 0, 46.81934, 0.588889, 0, 58.015266, 0.561111, 0, 68.702293, 0.511111, 0, 78.371498, 0.438889, 0, 87.277351, 0.311111, 0, 100.0, 0.0, 0, "linear" ],
+						"gammaBlue" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0, "linear" ],
+						"gammaGreen" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0, "linear" ],
+						"gammaRed" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0, "linear" ],
 						"resolution" : [ 0 ],
 						"type" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u623010384"
+					"varname" : "u127007422"
 				}
 
 			}
@@ -1207,7 +1210,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 12.754706,
-					"frgb" : [ 1.0, 0.501961, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-126",
 					"maxclass" : "comment",
@@ -1241,7 +1244,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 12.754706,
-					"frgb" : [ 1.0, 0.501961, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-130",
 					"maxclass" : "comment",
@@ -1266,7 +1269,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 397.0, 453.0, 62.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 189, 83, 606, 315, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 558, 53, 981, 290, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1286,7 +1289,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 678.0, 592.0, 657.0, 488.0 ],
@@ -1493,6 +1496,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-45",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1506,6 +1510,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-46",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1519,6 +1524,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-47",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1532,6 +1538,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-48",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1545,6 +1552,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-49",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1741,6 +1749,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-27",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1754,6 +1763,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1767,6 +1777,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-23",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1780,6 +1791,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-22",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1793,6 +1805,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-20",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1904,6 +1917,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2473,22 +2487,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 397.0, 429.0, 56.0, 20.0 ],
+					"patching_rect" : [ 397.0, 429.0, 56.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
-						"tags" : "",
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p View"

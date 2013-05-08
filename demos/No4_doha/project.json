@@ -13,7 +13,7 @@
 					"outputUpperLeftY" : [ 0 ],
 					"outputUseCustomSettings" : [ 0 ],
 					"renderBangRouting" : [ 1 ],
-					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::u225016413" : [  ],
+					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::u490008211" : [  ],
 					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::QTMovie01::autostart" : [ 1 ],
 					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::QTMovie01::enable" : [ 1 ],
 					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::QTMovie01::loop" : [ 1 ],
@@ -42,7 +42,7 @@
 					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::QTMovie04::unique" : [ 0 ],
 					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::QTMovie04::RandomFileselector::movieFilePath" : [ "<empty>" ],
 					"GUIInputCollection::GUIInputCollection::GUIInputQTMovieCollection::QTMovie04::RandomFileselector::movieFolder" : [ "DriveOSX:/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/demos/No4_doha/moovies/" ],
-					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::u050016397" : [  ],
+					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::u587008195" : [  ],
 					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::Syphon01::appname" : [ "SendFrames" ],
 					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::Syphon01::enable" : [ 0 ],
 					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::Syphon01::servername" : [ "Processing Syphon" ],
@@ -55,7 +55,7 @@
 					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::Syphon04::appname" : [ "MaxMSP" ],
 					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::Syphon04::enable" : [ 0 ],
 					"GUIInputCollection::GUIInputCollection::GUIInputSyphonCollection::Syphon04::servername" : [ "SyphonServerHelp" ],
-					"GUIInputCollection::GUIInputCollection::GUIInputCaptureCollection::u347016387" : [  ],
+					"GUIInputCollection::GUIInputCollection::GUIInputCaptureCollection::u140008185" : [  ],
 					"GUIInputCollection::GUIInputCollection::GUIInputCaptureCollection::Capture01::device" : [ "<empty>" ],
 					"GUIInputCollection::GUIInputCollection::GUIInputCaptureCollection::Capture01::dimX" : [ 320 ],
 					"GUIInputCollection::GUIInputCollection::GUIInputCaptureCollection::Capture01::dimY" : [ 240 ],
@@ -219,7 +219,7 @@
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::yScale" : [ 1.0 ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::GUISoftEdgeMeshConfig::objectDrawingMode" : [ 0 ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::GUISoftEdgeMeshConfig::objectEnable" : [ 1 ],
-					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::GUISoftEdgeMeshConfig::objectFaceSubDivision" : [ 0 ],
+					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::GUISoftEdgeMeshConfig::objectFaceSubDivision" : [ 2 ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::GUISoftEdgeMeshConfig::RandomFileselector::movieFilePath" : [ "30erRechtsSE_final.obj" ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[0]::GUISoftEdgeMeshConfig::RandomFileselector::movieFolder" : [ "DriveOSX:/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/demos/No4_doha/softedges/" ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[1]::enable" : [ 0 ],
@@ -262,9 +262,9 @@
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[4]::GUISoftEdgeMeshConfig::objectFaceSubDivision" : [ 0 ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[4]::GUISoftEdgeMeshConfig::RandomFileselector::movieFilePath" : [ "<empty>" ],
 					"GUITexture::GUITextureCollection::SoftEdge::softEdge[4]::GUISoftEdgeMeshConfig::RandomFileselector::movieFolder" : [ "DriveOSX:/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/demos/No4_doha/softedges/" ],
-					"ObjectEditor::u028016215" : [  ],
-					"ObjectEditor::MeshSelector::u816016259" : [  ],
-					"ObjectEditor::MeshSelector::MeshCollection::u082016217" : [  ],
+					"ObjectEditor::u575008013" : [  ],
+					"ObjectEditor::MeshSelector::u728008057" : [  ],
+					"ObjectEditor::MeshSelector::MeshCollection::u811008015" : [  ],
 					"ObjectEditor::MeshSelector::MeshCollection::MeshConfigurator[1]::blendModeDst" : [ 7 ],
 					"ObjectEditor::MeshSelector::MeshCollection::MeshConfigurator[1]::blendModeSrc" : [ 6 ],
 					"ObjectEditor::MeshSelector::MeshCollection::MeshConfigurator[1]::depthEnabled" : [ 0 ],
@@ -555,7 +555,7 @@
 					"gradientEditor[4]::gammaRed" : [ 100.0, 0.0, 1.0, 0.0, 0.5, 0, 100.0, 0.5, 0, "linear" ],
 					"gradientEditor[4]::resolution" : [ 0 ],
 					"gradientEditor[4]::type" : [ 1 ],
-					"SoftEdgeEditor::u374016201" : [  ]
+					"SoftEdgeEditor::u398007999" : [  ]
 				}
 
 			}
