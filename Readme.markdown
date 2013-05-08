@@ -48,11 +48,17 @@ Included:
 Known Bugs:
 ===========
 
-	currently no known bugs.
+	- using subdivision > 1 on softedges gives strange results
+	- undo function in mesheditor can make the mesh dissapear -> save mesh and press refresh or save project and restart MWServer.
 
 
 Changelog:
 ==========
+
+	SE 008		- new startup features - see Menu-Properties
+				- subdivision fix
+				- source input window fix for syphon streams
+
 
 	SE R007		- enabled Menu Bar for OSX again. When it is set invisible inside Properties, the pulldown menu will appear.
 				- the color settings for the meshes fixed.
