@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 45.0, 374.0, 32.0 ],
@@ -27,6 +28,46 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 749.0, 30.0, 79.0, 20.0 ],
+					"text" : "print osc_tcp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 734.0, 2.0, 167.0, 20.0 ],
+					"text" : "mxj net.tcp.recv @port 12988"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 763.0, 83.0, 83.0, 20.0 ],
+					"text" : "print osc_udp"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -151,8 +192,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 465.0, 255.0, 640.0, 480.0 ],
@@ -472,8 +514,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 355.0, 250.0, 623.0, 499.0 ],
@@ -521,8 +564,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -635,7 +679,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 15.0, 333.0, 98.0, 20.0 ],
+													"patching_rect" : [ 15.0, 374.0, 98.0, 20.0 ],
 													"text" : "prepend append"
 												}
 
@@ -659,13 +703,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-4",
-													"linecount" : 12,
+													"linecount" : 17,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 15.0, 139.0, 80.0, 165.0 ],
-													"text" : "off, movie01, movie02, movie03, movie04, syphon01, syphon02, syphon03, syphon04, capture01, capture02, capture03, capture04"
+													"patching_rect" : [ 15.0, 139.0, 69.0, 232.0 ],
+													"text" : "off, movie01, movie02, movie03, movie04, hap01, hap02, hap03, hap04, syphon01, syphon02, syphon03, syphon04, capture01, capture02, capture03, capture04"
 												}
 
 											}
@@ -691,7 +735,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 108.0, 374.0, 25.0, 25.0 ]
+													"patching_rect" : [ 108.0, 415.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -879,8 +923,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 33.0, 75.0, 640.0, 480.0 ],
@@ -1407,8 +1452,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 507.0, 102.0, 568.0, 438.0 ],
@@ -1884,8 +1930,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 384.0, 137.0, 640.0, 480.0 ],
@@ -2109,8 +2156,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 438.0, 393.0, 787.0, 480.0 ],
@@ -2265,8 +2313,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 312.0, 146.0, 417.0, 457.0 ],
@@ -2506,8 +2555,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 760.0, 435.0, 575.0, 390.0 ],
@@ -2564,7 +2614,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 112.0, 137.0, 622.0, 18.0 ],
-													"text" : "DriveOSX:/Users/maybites/Desktop/Kunsthaus Uri/Altdorf/"
+													"text" : "DriveOSX:/Users/maybites/Desktop/No1_cusco/"
 												}
 
 											}
@@ -2773,8 +2823,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1158.0, 365.0, 246.0, 144.0 ],
@@ -2941,8 +2992,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 374.0, 159.0, 494.0, 127.0 ],
@@ -3172,8 +3224,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 22.0, 374.0, 89.0, 183.0 ],
@@ -3612,8 +3665,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 264.0, 338.0 ],
@@ -5234,11 +5288,12 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 82.0, 934.0, 726.0 ],
+										"rect" : [ 486.0, 44.0, 937.0, 744.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5258,6 +5313,78 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-56",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 234.0, 66.0, 62.0, 20.0 ],
+													"text" : "hap"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-55",
+													"linecount" : 10,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 234.0, 86.0, 62.0, 141.0 ],
+													"text" : "*\n*\n*\n\n*\nstop\n*\n*\n*\n\n"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-54",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 8.0, 707.0, 497.0, 33.0 ],
+													"text" : "Attention: This tcp-listener only works with the MaxMSP-mxj-Object called \"net.tcp.send\". It receives Max-messages that are structured like OSC messages."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-52",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 180.0, 3.0, 238.0, 20.0 ],
+													"text" : "osc - tcp listener port: 12988 -> read below"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-28",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 738.0, 119.0, 181.0, 18.0 ],
+													"text" : "/mws/movie01/name/cusco.mov"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -5628,8 +5755,8 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 27.0, 243.0, 230.0, 20.0 ],
-													"text" : "same for movie02, movie03 and movie04"
+													"patching_rect" : [ 27.0, 243.0, 418.0, 20.0 ],
+													"text" : "same for movie02, movie03 and movie04 (and hap01, hap02, hap03, hap04)"
 												}
 
 											}
@@ -5713,8 +5840,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 550.0, 120.0, 209.0, 18.0 ],
-													"text" : "/mws/movie01/name sintel-720p.mov"
+													"patching_rect" : [ 550.0, 119.0, 181.0, 18.0 ],
+													"text" : "/mws/movie01/name cusco.mov"
 												}
 
 											}
@@ -5828,7 +5955,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 8.0, 86.0, 132.0, 154.0 ],
+													"patching_rect" : [ 8.0, 86.0, 159.0, 154.0 ],
 													"text" : "/mws/movie01/enable /mws/movie01/name /mws/movie01/path /mws/movie01/unique /mws/movie01/start /mws/movie01/pause /mws/movie01/rate /mws/movie01/frame /mws/movie01/loop /mws/movie01/reset /mws/movie01/play"
 												}
 
@@ -5857,7 +5984,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 550.0, 17.0, 362.0, 45.0 ],
+													"patching_rect" : [ 550.0, 24.0, 362.0, 45.0 ],
 													"text" : "/mws/settings/load /Users/maybites/Arbeiten/01_projekte/projektil/110221_MeshWarpServer/MWServerSE_008/setup/storage.json"
 												}
 
@@ -6108,6 +6235,16 @@
 													"hidden" : 0,
 													"midpoints" : [ 559.5, 228.5, 533.5, 228.5 ],
 													"source" : [ "obj-27", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 747.5, 137.5, 533.5, 137.5 ],
+													"source" : [ "obj-28", 0 ]
 												}
 
 											}
@@ -6967,8 +7104,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 380.0, 40.0, 220.0, 160.0 ],
@@ -7361,8 +7499,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 362.0, 152.0, 959.0, 481.0 ],
@@ -8200,8 +8339,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 610.0, 669.0, 798.0, 427.0 ],
@@ -8261,8 +8401,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 222.0, 207.0 ],
@@ -8598,8 +8739,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 381.0, 225.0, 640.0, 480.0 ],
@@ -8874,8 +9016,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 222.0, 207.0 ],
@@ -9074,8 +9217,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 222.0, 207.0 ],
@@ -9328,8 +9472,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 373.0, 58.0, 527.0, 735.0 ],
@@ -9364,8 +9509,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 6,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -11476,8 +11622,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -11697,8 +11844,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1071.0, 530.0 ],
@@ -12345,8 +12493,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 8.0, 130.0, 972.0, 798.0 ],
@@ -12437,8 +12586,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 717.0, 138.0, 1162.0, 521.0 ],
@@ -13415,8 +13565,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 325.0, 149.0, 206.0, 178.0 ],
@@ -13589,8 +13740,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 325.0, 149.0, 206.0, 178.0 ],
@@ -13791,8 +13943,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 16.0, 294.0, 1088.0, 518.0 ],
@@ -13827,8 +13980,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 6,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -15231,8 +15385,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 21.0, 456.0, 1404.0, 520.0 ],
@@ -15989,8 +16144,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 421.0, 394.0, 1019.0, 512.0 ],
@@ -16656,8 +16812,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 523.0, 46.0, 897.0, 634.0 ],
@@ -17002,8 +17159,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 6,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 414.0, 254.0, 1026.0, 636.0 ],
@@ -19375,7 +19533,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 356.0, 16.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u891016285"
+									"varname" : "u383007650"
 								}
 
 							}
@@ -19634,8 +19792,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -20503,8 +20662,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 5.0, 316.0, 306.0, 139.0 ],
@@ -20790,8 +20950,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 33.0, 52.0, 726.0, 334.0 ],
@@ -21872,8 +22033,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 13.0, 357.0, 661.0, 375.0 ],
@@ -23654,8 +23816,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 556.0, 74.0, 809.0, 638.0 ],
@@ -25097,8 +25260,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 603.0, 133.0, 640.0, 480.0 ],
@@ -25414,7 +25578,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 862.0, 25.0, 96.0, 20.0 ],
+					"patching_rect" : [ 734.0, 106.0, 96.0, 20.0 ],
 					"text" : "s remoteControl"
 				}
 
@@ -25428,7 +25592,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 862.0, 2.0, 106.0, 20.0 ],
+					"patching_rect" : [ 749.0, 53.0, 106.0, 20.0 ],
 					"text" : "udpreceive 12987"
 				}
 
@@ -25574,8 +25738,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 603.0, 133.0, 640.0, 480.0 ],
@@ -25862,8 +26027,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 610.0, 234.0, 773.0, 465.0 ],
@@ -26794,8 +26960,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 86.0, 108.0, 235.0, 205.0 ],
@@ -27428,8 +27595,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 697.0, 44.0, 743.0, 481.0 ],
@@ -27888,17 +28056,17 @@
 					"patching_rect" : [ 763.0, 258.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"outputBackGround" : [ 2 ],
-						"outputLowerRightX" : [ 1440 ],
-						"outputLowerRightY" : [ 900 ],
-						"outputResolution" : [ 1 ],
-						"outputUpperLeftX" : [ 0 ],
+						"outputLowerRightX" : [ 0 ],
+						"outputLowerRightY" : [ 1024 ],
+						"outputResolution" : [ 0 ],
+						"outputUpperLeftX" : [ -2560 ],
 						"outputUpperLeftY" : [ 0 ],
 						"outputUseCustomSettings" : [ 0 ],
 						"renderBangRouting" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u001016297"
+					"varname" : "u177007715"
 				}
 
 			}
@@ -27924,7 +28092,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-42",
-					"items" : [ "off", ",", "movie01", ",", "movie02", ",", "movie03", ",", "movie04", ",", "syphon01", ",", "syphon02", ",", "syphon03", ",", "syphon04", ",", "capture01", ",", "capture02", ",", "capture03", ",", "capture04" ],
+					"items" : [ "off", ",", "movie01", ",", "movie02", ",", "movie03", ",", "movie04", ",", "hap01", ",", "hap02", ",", "hap03", ",", "hap04", ",", "syphon01", ",", "syphon02", ",", "syphon03", ",", "syphon04", ",", "capture01", ",", "capture02", ",", "capture03", ",", "capture04" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -27977,8 +28145,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 610.0, 40.0, 820.0, 115.0 ],
@@ -28328,8 +28497,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 698.0, 273.0, 739.0, 628.0 ],
@@ -28378,8 +28548,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 222.0, 207.0 ],
@@ -28676,8 +28847,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 100.0, 536.0, 896.0, 266.0 ],
@@ -28952,8 +29124,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 222.0, 207.0 ],
@@ -29152,8 +29325,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 222.0, 207.0 ],
@@ -29406,8 +29580,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 69.0, 388.0, 249.0, 267.0 ],
@@ -30187,8 +30362,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -30408,8 +30584,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1071.0, 530.0 ],
@@ -31261,8 +31438,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 871.0, 266.0, 972.0, 798.0 ],
@@ -31339,8 +31517,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 852.0, 51.0, 314.0, 456.0 ],
@@ -31592,8 +31771,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 717.0, 138.0, 1162.0, 521.0 ],
@@ -32598,8 +32778,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 121.0, 181.0, 206.0, 178.0 ],
@@ -32772,8 +32953,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 0.0, 133.0, 206.0, 178.0 ],
@@ -32946,8 +33128,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 325.0, 149.0, 206.0, 178.0 ],
@@ -33120,8 +33303,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 325.0, 149.0, 206.0, 178.0 ],
@@ -33322,8 +33506,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 16.0, 294.0, 1088.0, 518.0 ],
@@ -33358,8 +33543,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 6,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -34762,8 +34948,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 21.0, 456.0, 1404.0, 520.0 ],
@@ -35520,8 +35707,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 421.0, 394.0, 1019.0, 512.0 ],
@@ -36215,8 +36403,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 6,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 523.0, 46.0, 897.0, 634.0 ],
@@ -36561,8 +36750,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 6,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 414.0, 254.0, 1026.0, 636.0 ],
@@ -39200,7 +39390,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 436.0, 9.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u707016299"
+									"varname" : "u616007694"
 								}
 
 							}
@@ -39517,8 +39707,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -40432,8 +40623,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 951.0, 294.0, 419.0, 141.0 ],
@@ -40792,8 +40984,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 33.0, 52.0, 726.0, 334.0 ],
@@ -41897,8 +42090,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 6,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 319.0, 44.0, 661.0, 375.0 ],
@@ -43475,8 +43669,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 312.0, 347.0, 1112.0, 480.0 ],
@@ -45412,6 +45607,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-134", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-133", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -45669,6 +45873,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-170", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -46248,334 +46470,359 @@
 		"dependency_cache" : [ 			{
 				"name" : "GUIInput_OSX.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputCollection_OSX.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputQTMovieCollection.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputQTMovieSetup.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.js",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureGateQTMovie.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputSyphonCollection.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputSyphonSetup.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureGateSyphon.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputCaptureCollection_OSX.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputCaptureSetup_OSX.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputHAPCollection.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputHAPSetup.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITexture.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureCollection.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLink.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkEnable.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkBrCoSa.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkMask.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkResample.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkSoftEdge.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkSoftEdgeParam.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "softEdgeParamsSplitter.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdge.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeParam.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeMeshConfig.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawTextureOnVideoTable.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "textureParamsSplitter.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawSoftEdgeOnVideoTable.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveTextureDims.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveInputTexture.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigSelector.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigCollection.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigurator.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfiguratorRemoteHelper.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EditorEventHandler.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "div.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mult.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveUserviewTexture.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixDecoupling.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gradientEditor.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureChain.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remoteControl.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveSoftEdgeTexture.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "add.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "properties.txt",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "About.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "../source/lib/max",
+				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IconButton.png",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/imgs",
-				"patcherrelativepath" : "../source/lib/imgs",
+				"patcherrelativepath" : "./lib/imgs",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
 				"type" : "iLaX"
 			}
 , 			{

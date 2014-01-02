@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 389.0, 44.0, 1106.0, 517.0 ],
+		"rect" : [ 334.0, 44.0, 1106.0, 517.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,17 +29,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 373.0, 80.0, 60.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -208,7 +198,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 562.0, 373.0, 143.372894, 19.0 ],
-					"text" : "\"Processing Syphon\"",
+					"text" : "\"Screen Output\"",
 					"varname" : "servername"
 				}
 
@@ -253,7 +243,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 850.0, 376.0, 143.372894, 19.0 ],
-					"text" : "SendFrames",
+					"text" : "SyphonExampleDebug",
 					"varname" : "appname"
 				}
 
@@ -478,8 +468,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -711,8 +702,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -877,13 +869,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 374.0, 12.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"appname" : [ "SendFrames" ],
+						"appname" : [ "SyphonExampleDebug" ],
 						"enable" : [ 0 ],
-						"servername" : [ "Processing Syphon" ]
+						"servername" : [ "Screen Output" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u654007984"
+					"varname" : "u698007076"
 				}
 
 			}
@@ -1025,8 +1017,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 651.0, 543.0, 730.0, 488.0 ],
@@ -2097,15 +2090,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2343,6 +2327,11 @@
 					"source" : [ "obj-69", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

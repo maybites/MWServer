@@ -182,8 +182,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 817.0, 145.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_movie04"
+					"patching_rect" : [ 89.0, 817.0, 136.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_hap04"
 				}
 
 			}
@@ -194,10 +194,10 @@
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 89.0, 752.0, 173.0, 20.0 ],
-					"text" : "TextureGateQTMovie movie04"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 89.0, 752.0, 153.0, 20.0 ],
+					"text" : "TextureGateSyphon hap04"
 				}
 
 			}
@@ -209,8 +209,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.0, 817.0, 140.0, 17.0 ],
-					"text" : "s sourceOutputTexture_movie04"
+					"patching_rect" : [ 243.0, 817.0, 131.0, 17.0 ],
+					"text" : "s sourceOutputTexture_hap04"
 				}
 
 			}
@@ -222,8 +222,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 623.0, 145.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_movie03"
+					"patching_rect" : [ 85.0, 607.0, 136.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_hap03"
 				}
 
 			}
@@ -234,10 +234,10 @@
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 85.0, 562.0, 173.0, 20.0 ],
-					"text" : "TextureGateQTMovie movie03"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 85.0, 562.0, 153.0, 20.0 ],
+					"text" : "TextureGateSyphon hap03"
 				}
 
 			}
@@ -249,8 +249,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 623.0, 140.0, 17.0 ],
-					"text" : "s sourceOutputTexture_movie03"
+					"patching_rect" : [ 239.0, 623.0, 131.0, 17.0 ],
+					"text" : "s sourceOutputTexture_hap03"
 				}
 
 			}
@@ -262,8 +262,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 428.0, 145.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_movie02"
+					"patching_rect" : [ 85.0, 397.0, 136.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_hap02"
 				}
 
 			}
@@ -274,10 +274,10 @@
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 85.0, 363.0, 173.0, 20.0 ],
-					"text" : "TextureGateQTMovie movie02"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 85.0, 363.0, 153.0, 20.0 ],
+					"text" : "TextureGateSyphon hap02"
 				}
 
 			}
@@ -289,8 +289,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 428.0, 140.0, 17.0 ],
-					"text" : "s sourceOutputTexture_movie02"
+					"patching_rect" : [ 106.0, 421.0, 131.0, 17.0 ],
+					"text" : "s sourceOutputTexture_hap02"
 				}
 
 			}
@@ -302,8 +302,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 233.0, 145.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_movie01"
+					"patching_rect" : [ 83.0, 203.0, 136.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_hap01"
 				}
 
 			}
@@ -314,10 +314,10 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
-					"patching_rect" : [ 83.0, 168.0, 173.0, 20.0 ],
-					"text" : "TextureGateQTMovie movie01"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 83.0, 168.0, 153.0, 20.0 ],
+					"text" : "TextureGateSyphon hap01"
 				}
 
 			}
@@ -329,8 +329,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 431.0, 786.0, 197.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_movie04"
+					"patching_rect" : [ 431.0, 786.0, 185.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_hap04"
 				}
 
 			}
@@ -342,8 +342,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 786.0, 169.0, 20.0 ],
-					"text" : "s sourceTextureDim_movie04"
+					"patching_rect" : [ 260.0, 786.0, 157.0, 20.0 ],
+					"text" : "s sourceTextureDim_hap04"
 				}
 
 			}
@@ -375,13 +375,13 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "movie04", 4 ],
+					"args" : [ "hap04", 8 ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
-					"name" : "GUIInputQTMovieSetup.maxpat",
+					"name" : "GUIInputHAPSetup.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "jit_matrix", "", "", "" ],
+					"outlettype" : [ "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 89.0, 692.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 189.0, 340.0, 45.0 ],
@@ -397,8 +397,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 593.0, 197.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_movie03"
+					"patching_rect" : [ 427.0, 593.0, 185.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_hap03"
 				}
 
 			}
@@ -410,8 +410,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 593.0, 169.0, 20.0 ],
-					"text" : "s sourceTextureDim_movie03"
+					"patching_rect" : [ 256.0, 593.0, 157.0, 20.0 ],
+					"text" : "s sourceTextureDim_hap03"
 				}
 
 			}
@@ -443,13 +443,13 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "movie03", 3 ],
+					"args" : [ "hap03", 7 ],
 					"id" : "obj-28",
 					"maxclass" : "bpatcher",
-					"name" : "GUIInputQTMovieSetup.maxpat",
+					"name" : "GUIInputHAPSetup.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "jit_matrix", "", "", "" ],
+					"outlettype" : [ "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 85.0, 497.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 144.0, 340.0, 45.0 ],
@@ -465,8 +465,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 397.0, 197.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_movie02"
+					"patching_rect" : [ 427.0, 397.0, 185.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_hap02"
 				}
 
 			}
@@ -478,8 +478,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 397.0, 169.0, 20.0 ],
-					"text" : "s sourceTextureDim_movie02"
+					"patching_rect" : [ 256.0, 397.0, 157.0, 20.0 ],
+					"text" : "s sourceTextureDim_hap02"
 				}
 
 			}
@@ -511,13 +511,13 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "movie02", 2 ],
+					"args" : [ "hap02", 6 ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
-					"name" : "GUIInputQTMovieSetup.maxpat",
+					"name" : "GUIInputHAPSetup.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "jit_matrix", "", "", "" ],
+					"outlettype" : [ "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 85.0, 299.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 99.0, 340.0, 45.0 ],
@@ -536,7 +536,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 340.0, 14.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u066000587"
+					"varname" : "u539009832"
 				}
 
 			}
@@ -572,8 +572,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 203.0, 197.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_movie01"
+					"patching_rect" : [ 425.0, 203.0, 185.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_hap01"
 				}
 
 			}
@@ -585,8 +585,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 203.0, 169.0, 20.0 ],
-					"text" : "s sourceTextureDim_movie01"
+					"patching_rect" : [ 254.0, 203.0, 157.0, 20.0 ],
+					"text" : "s sourceTextureDim_hap01"
 				}
 
 			}
@@ -623,8 +623,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 233.0, 140.0, 17.0 ],
-					"text" : "s sourceOutputTexture_movie01"
+					"patching_rect" : [ 127.0, 223.0, 131.0, 17.0 ],
+					"text" : "s sourceOutputTexture_hap01"
 				}
 
 			}
@@ -656,13 +656,13 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "movie01", 1 ],
+					"args" : [ "hap01", 5 ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "GUIInputQTMovieSetup.maxpat",
+					"name" : "GUIInputHAPSetup.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "jit_matrix", "", "", "" ],
+					"outlettype" : [ "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 83.0, 101.0, 398.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 54.0, 340.0, 45.0 ],
@@ -739,6 +739,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 218.833328, 156.0, 308.5, 156.0 ],
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -881,15 +890,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -938,6 +938,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -1014,6 +1023,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
@@ -1117,6 +1135,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1145,28 +1172,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 1 ]
 				}
 
 			}
@@ -1185,15 +1194,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-53", 1 ]
 				}
 
 			}
@@ -1396,7 +1396,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "GUIInputQTMovieSetup.maxpat",
+				"name" : "GUIInputHAPSetup.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1417,11 +1417,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TextureGateQTMovie.maxpat",
+				"name" : "TextureGateSyphon.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
