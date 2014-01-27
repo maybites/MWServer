@@ -1,1 +1,1 @@
-1_autostart, 0;2_projectpath, DriveOSX:/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/demos/No1_cusco/project.json;3_mouseinvisibility, 0;4_outputwindow, 0;5_menuinvisibility, 0;
+1_autostart, 0;2_projectpath, DriveOSX:/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/demos/No1_cusco/project.json;3_mouseinvisibility, 1;4_outputwindow, 0;5_menuinvisibility, 0;

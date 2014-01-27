@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 139.0, 129.0, 1367.0, 569.0 ],
+		"rect" : [ 73.0, 129.0, 1367.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -244,7 +244,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 138.0, 137.0, 20.0 ],
+					"patching_rect" : [ 137.0, 105.0, 137.0, 20.0 ],
 					"text" : "r g_setSetupFolderPath"
 				}
 
@@ -914,7 +914,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u763008847"
+					"varname" : "u841000068"
 				}
 
 			}
