@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 389.0, 44.0, 1106.0, 517.0 ],
@@ -28,17 +29,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 373.0, 80.0, 60.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -208,7 +198,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 562.0, 373.0, 143.372894, 19.0 ],
-					"text" : "\"Processing Syphon\"",
+					"text" : "\"Screen Output\"",
 					"varname" : "servername"
 				}
 
@@ -253,7 +243,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 850.0, 376.0, 143.372894, 19.0 ],
-					"text" : "SendFrames",
+					"text" : "SyphonExampleDebug",
 					"varname" : "appname"
 				}
 
@@ -335,7 +325,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 					"hint" : "App Name",
 					"id" : "obj-28",
-					"items" : "<empty>",
+					"items" : [ "SyphonExampleDebug", ",", "SyphonExampleDebug", ",", "Max" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -368,7 +358,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 					"hint" : "Server Name",
 					"id" : "obj-31",
-					"items" : "<empty>",
+					"items" : [ "Screen Output", ",", "Texture Output", ",", "MWServer" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -478,8 +468,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -711,8 +702,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -877,13 +869,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 374.0, 12.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"appname" : [ "SendFrames" ],
-						"enable" : [ 0 ],
-						"servername" : [ "Processing Syphon" ]
+						"appname" : [ "SyphonExampleDebug" ],
+						"enable" : [ 1 ],
+						"servername" : [ "Screen Output" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u654007984"
+					"varname" : "u665016487"
 				}
 
 			}
@@ -1025,8 +1017,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 651.0, 543.0, 730.0, 488.0 ],
@@ -1069,7 +1062,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.0, 208.0, 92.0, 18.0 ],
-									"text" : "640 480"
+									"text" : "800 600"
 								}
 
 							}
@@ -1283,7 +1276,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 335.0, 231.0, 79.0, 18.0 ],
-									"text" : "480"
+									"text" : "600"
 								}
 
 							}
@@ -1311,7 +1304,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.0, 232.0, 79.0, 18.0 ],
-									"text" : "640"
+									"text" : "800"
 								}
 
 							}
@@ -1699,7 +1692,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bgcolor" : [ 0.5, 0.8, 0.5, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -2091,15 +2084,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 296.184326, 185.5, 121.5, 185.5 ],
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
