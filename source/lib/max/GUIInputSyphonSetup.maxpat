@@ -4,11 +4,15 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
+<<<<<<< HEAD
 			"revision" : 3,
+=======
+			"revision" : 6,
+>>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 389.0, 44.0, 1106.0, 517.0 ],
+		"rect" : [ 334.0, 44.0, 1106.0, 517.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -469,7 +473,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
+<<<<<<< HEAD
 							"revision" : 3,
+=======
+							"revision" : 6,
+>>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 							"architecture" : "x86"
 						}
 ,
@@ -703,7 +711,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
+<<<<<<< HEAD
 							"revision" : 3,
+=======
+							"revision" : 6,
+>>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 							"architecture" : "x86"
 						}
 ,
@@ -870,12 +882,20 @@
 					"patching_rect" : [ 374.0, 12.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"appname" : [ "SyphonExampleDebug" ],
+<<<<<<< HEAD
 						"enable" : [ 1 ],
+=======
+						"enable" : [ 0 ],
+>>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 						"servername" : [ "Screen Output" ]
 					}
 ,
 					"text" : "autopattr",
+<<<<<<< HEAD
 					"varname" : "u665016487"
+=======
+					"varname" : "u698007076"
+>>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 				}
 
 			}
@@ -1018,7 +1038,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
+<<<<<<< HEAD
 							"revision" : 3,
+=======
+							"revision" : 6,
+>>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 							"architecture" : "x86"
 						}
 ,
@@ -2327,6 +2351,11 @@
 					"source" : [ "obj-69", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
