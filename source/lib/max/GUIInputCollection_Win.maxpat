@@ -2,15 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
+			"major" : 6,
 			"minor" : 1,
-			"revision" : 9
+			"revision" : 8,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 31.0, 126.0, 1339.0, 535.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 31.0, 126.0, 1339.0, 535.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -18,180 +17,310 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "capture enable",
+					"id" : "obj-6",
 					"maxclass" : "outlet",
-					"numoutlets" : 0,
-					"id" : "obj-8",
 					"numinlets" : 1,
-					"patching_rect" : [ 499.0, 373.0, 25.0, 25.0 ],
-					"comment" : "capture enable"
+					"numoutlets" : 0,
+					"patching_rect" : [ 908.0, 373.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"varname" : "GUIInputCaptureCollection",
-					"numoutlets" : 1,
-					"id" : "obj-10",
-					"outlettype" : [ "" ],
-					"presentation_rect" : [ 400.0, 0.0, 392.0, 234.0 ],
-					"args" : [  ],
 					"name" : "GUIInputCaptureCollection_Win.maxpat",
 					"numinlets" : 2,
-					"patching_rect" : [ 499.0, 74.0, 392.0, 238.0 ],
-					"presentation" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "inlet",
 					"numoutlets" : 1,
-					"id" : "obj-9",
 					"outlettype" : [ "" ],
-					"numinlets" : 0,
-					"patching_rect" : [ 15.0, 13.0, 25.0, 25.0 ],
-					"comment" : ""
+					"patching_rect" : [ 908.0, 74.0, 392.0, 238.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 800.0, 0.0, 392.0, 234.0 ],
+					"varname" : "GUIInputCaptureCollection[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "newobj",
-					"text" : "thispatcher",
-					"numoutlets" : 2,
-					"id" : "obj-7",
-					"outlettype" : [ "", "" ],
-					"fontsize" : 12.0,
-					"numinlets" : 1,
-					"fontname" : "Arial",
-					"patching_rect" : [ 15.0, 47.0, 69.0, 20.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"comment" : "capture enable",
+					"id" : "obj-8",
 					"maxclass" : "outlet",
-					"numoutlets" : 0,
-					"id" : "obj-5",
 					"numinlets" : 1,
-					"patching_rect" : [ 89.0, 371.0, 25.0, 25.0 ],
-					"comment" : "qt enable"
+					"numoutlets" : 0,
+					"patching_rect" : [ 499.0, 373.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "inlet",
-					"numoutlets" : 1,
-					"id" : "obj-4",
-					"outlettype" : [ "" ],
-					"numinlets" : 0,
-					"patching_rect" : [ 462.0, 15.0, 25.0, 25.0 ],
-					"comment" : "remoteControl"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"maxclass" : "inlet",
-					"numoutlets" : 1,
-					"id" : "obj-3",
-					"outlettype" : [ "" ],
-					"numinlets" : 0,
-					"patching_rect" : [ 89.0, 15.0, 25.0, 25.0 ],
-					"comment" : "drive bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"id" : "obj-10",
 					"maxclass" : "bpatcher",
-					"varname" : "GUIInputQTMovieCollection",
+					"name" : "GUIInputSpoutCollection.maxpat",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"id" : "obj-1",
 					"outlettype" : [ "" ],
-					"presentation_rect" : [ 0.0, 0.0, 391.0, 234.0 ],
-					"args" : [  ],
+					"patching_rect" : [ 499.0, 74.0, 392.0, 238.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 400.0, 0.0, 392.0, 234.0 ],
+					"varname" : "GUIInputCaptureCollection"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-9",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 13.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 47.0, 69.0, 20.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "qt enable",
+					"id" : "obj-5",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 89.0, 371.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "remoteControl",
+					"id" : "obj-4",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 462.0, 15.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "drive bang",
+					"id" : "obj-3",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 89.0, 15.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
 					"name" : "GUIInputQTMovieCollection.maxpat",
 					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 74.0, 392.0, 238.0 ],
-					"presentation" : 1
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 391.0, 234.0 ],
+					"varname" : "GUIInputQTMovieCollection"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"source" : [ "obj-3", 0 ],
-					"destination" : [ "obj-10", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-4", 0 ],
-					"destination" : [ "obj-10", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-10", 0 ],
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-9", 0 ],
-					"destination" : [ "obj-7", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"source" : [ "obj-1", 0 ],
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-3", 0 ],
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"source" : [ "obj-4", 0 ],
-					"destination" : [ "obj-1", 1 ],
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ]
+					"source" : [ "obj-3", 0 ]
 				}
 
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "GUIInputQTMovieCollection.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputQTMovieSetup.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RandomFileselector.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RandomFileselector.js",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TextureGateQTMovie.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputSpoutCollection.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputSpoutSetup.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TextureGateSyphon.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputCaptureCollection_Win.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputCaptureSetup_Win.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.spoutreceiver.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}

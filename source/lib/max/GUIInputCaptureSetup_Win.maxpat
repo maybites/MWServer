@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 33.0, 75.0, 1404.0, 745.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -135,7 +135,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 631.0, 121.0, 28.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 182.0, 38.0, 19.0, 18.0 ],
+					"presentation_rect" : [ 168.0, 23.0, 19.0, 18.0 ],
 					"text" : "x"
 				}
 
@@ -195,7 +195,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 704.0, 106.0, 49.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 38.0, 38.0, 18.0 ],
+					"presentation_rect" : [ 178.0, 23.0, 38.0, 18.0 ],
 					"varname" : "dimY"
 				}
 
@@ -213,7 +213,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 650.0, 106.0, 49.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 38.0, 40.0, 18.0 ],
+					"presentation_rect" : [ 132.0, 23.0, 40.0, 18.0 ],
 					"varname" : "dimX"
 				}
 
@@ -229,7 +229,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 616.0, 106.0, 28.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 38.0, 28.0, 18.0 ],
+					"presentation_rect" : [ 107.0, 23.0, 28.0, 18.0 ],
 					"text" : "size"
 				}
 
@@ -1112,7 +1112,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.0, 138.0, 35.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 39.0, 34.0, 15.0 ],
+					"presentation_rect" : [ 29.0, 24.0, 34.0, 15.0 ],
 					"text" : "sound"
 				}
 
@@ -1142,7 +1142,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 368.0, 137.0, 40.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.0, 39.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 65.0, 24.0, 40.0, 15.0 ],
 					"text" : "settings"
 				}
 
@@ -1230,7 +1230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 789.0, 375.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.0, 16.0, 145.0, 20.0 ]
+					"presentation_rect" : [ 191.0, 1.0, 145.0, 20.0 ]
 				}
 
 			}
@@ -1281,7 +1281,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-80",
-					"items" : "<empty>",
+					"items" : "Spout Cam",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1289,7 +1289,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 473.0, 367.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 16.0, 145.0, 20.0 ]
+					"presentation_rect" : [ 27.0, 1.0, 145.0, 20.0 ]
 				}
 
 			}
@@ -1788,7 +1788,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u862000056"
+					"varname" : "u278004064"
 				}
 
 			}
@@ -1817,7 +1817,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 306.0, 93.0, 39.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.0, 39.0, 38.0, 15.0 ],
+					"presentation_rect" : [ 298.0, 24.0, 38.0, 15.0 ],
 					"text" : "refresh"
 				}
 
@@ -1860,7 +1860,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 33.0, 91.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 0.0, 20.0, 20.0 ],
 					"varname" : "enable"
 				}
 
@@ -2497,7 +2497,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 50.0, 173.0, 33.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 15.0, 316.0, 43.0 ]
+					"presentation_rect" : [ 24.0, 0.0, 316.0, 43.0 ]
 				}
 
 			}
