@@ -4,11 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-<<<<<<< HEAD
-			"revision" : 3,
-=======
 			"revision" : 6,
->>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 			"architecture" : "x86"
 		}
 ,
@@ -329,7 +325,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 					"hint" : "App Name",
 					"id" : "obj-28",
-					"items" : [ "SyphonExampleDebug", ",", "SyphonExampleDebug", ",", "Max" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -362,7 +358,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 					"hint" : "Server Name",
 					"id" : "obj-31",
-					"items" : [ "Screen Output", ",", "Texture Output", ",", "MWServer" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -473,11 +469,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-<<<<<<< HEAD
-							"revision" : 3,
-=======
 							"revision" : 6,
->>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 							"architecture" : "x86"
 						}
 ,
@@ -711,11 +703,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-<<<<<<< HEAD
-							"revision" : 3,
-=======
 							"revision" : 6,
->>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 							"architecture" : "x86"
 						}
 ,
@@ -882,20 +870,12 @@
 					"patching_rect" : [ 374.0, 12.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"appname" : [ "SyphonExampleDebug" ],
-<<<<<<< HEAD
-						"enable" : [ 1 ],
-=======
 						"enable" : [ 0 ],
->>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 						"servername" : [ "Screen Output" ]
 					}
 ,
 					"text" : "autopattr",
-<<<<<<< HEAD
-					"varname" : "u665016487"
-=======
 					"varname" : "u698007076"
->>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 				}
 
 			}
@@ -1038,11 +1018,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-<<<<<<< HEAD
-							"revision" : 3,
-=======
 							"revision" : 6,
->>>>>>> 3a518d8679581c3b5210328768fa65c258a5cb11
 							"architecture" : "x86"
 						}
 ,
@@ -1086,7 +1062,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.0, 208.0, 92.0, 18.0 ],
-									"text" : "800 600"
+									"text" : "640 480"
 								}
 
 							}
@@ -1300,7 +1276,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 335.0, 231.0, 79.0, 18.0 ],
-									"text" : "600"
+									"text" : "480"
 								}
 
 							}
@@ -1328,7 +1304,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.0, 232.0, 79.0, 18.0 ],
-									"text" : "800"
+									"text" : "640"
 								}
 
 							}
@@ -1716,7 +1692,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.8, 0.5, 1.0 ],
+					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "panel",
 					"numinlets" : 1,
