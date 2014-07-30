@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 701.0, 375.0, 640.0, 480.0 ],
+		"rect" : [ 1365.0, 353.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -136,7 +136,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u080007599"
+					"varname" : "u762015714"
 				}
 
 			}
