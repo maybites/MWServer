@@ -389,7 +389,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "capture02", 12 ],
+					"args" : [ "capture02", 16 ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputCaptureSetup_Win.maxpat",
@@ -471,7 +471,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "capture03", 11 ],
+					"args" : [ "capture03", 15 ],
 					"id" : "obj-28",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputCaptureSetup_Win.maxpat",
@@ -553,7 +553,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "capture02", 10 ],
+					"args" : [ "capture02", 14 ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputCaptureSetup_Win.maxpat",
@@ -578,7 +578,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 340.0, 14.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u946006483"
+					"varname" : "u720018171"
 				}
 
 			}
@@ -712,7 +712,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "capture01", 9 ],
+					"args" : [ "capture01", 13 ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputCaptureSetup_Win.maxpat",

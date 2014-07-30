@@ -170,7 +170,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-52",
-					"items" : [ "off", ",", "movie01", ",", "movie02", ",", "movie03", ",", "movie04", ",", "HAP01", ",", "HAP02", ",", "HAP03", ",", "HAP04", ",", "syphon01", ",", "syphon02", ",", "syphon03", ",", "syphon04", ",", "capture01", ",", "capture02", ",", "capture03", ",", "capture04" ],
+					"items" : [ "off", ",", "movie01", ",", "movie02", ",", "movie03", ",", "movie04", ",", "spout01", ",", "spout02", ",", "spout03", ",", "spout04", ",", "capture01", ",", "capture02", ",", "capture03", ",", "capture04" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,

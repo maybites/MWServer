@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 31.0, 126.0, 1339.0, 535.0 ],
+		"rect" : [ 31.0, 126.0, 1810.0, 535.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -30,11 +30,37 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "capture enable",
+					"id" : "obj-11",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 503.0, 373.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "bpatcher",
+					"name" : "GUIInputHAPCollection.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 503.0, 74.0, 392.0, 238.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 400.0, 0.0, 392.0, 234.0 ],
+					"varname" : "GUIInputHapCollection"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "capture enable",
 					"id" : "obj-6",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 908.0, 373.0, 25.0, 25.0 ]
+					"patching_rect" : [ 1355.0, 373.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -46,9 +72,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 908.0, 74.0, 392.0, 238.0 ],
+					"patching_rect" : [ 1355.0, 74.0, 392.0, 238.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.0, 0.0, 392.0, 234.0 ],
+					"presentation_rect" : [ 1200.0, 0.0, 392.0, 234.0 ],
 					"varname" : "GUIInputCaptureCollection[1]"
 				}
 
@@ -60,7 +86,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.0, 373.0, 25.0, 25.0 ]
+					"patching_rect" : [ 946.0, 373.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -72,9 +98,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 499.0, 74.0, 392.0, 238.0 ],
+					"patching_rect" : [ 946.0, 74.0, 392.0, 238.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 400.0, 0.0, 392.0, 234.0 ],
+					"presentation_rect" : [ 800.0, 0.0, 392.0, 234.0 ],
 					"varname" : "GUIInputCaptureCollection"
 				}
 
@@ -177,6 +203,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -204,6 +239,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -223,6 +267,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -298,7 +351,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TextureGateSyphon.maxpat",
+				"name" : "TextureGateSpout.maxpat",
 				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -319,7 +372,32 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "GUIInputHAPCollection.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputHAPSetup.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TextureGateSyphon.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jit.gl.spoutreceiver.mxe",
+				"type" : "iLaF"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxe",
 				"type" : "iLaF"
 			}
  ]

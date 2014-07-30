@@ -391,7 +391,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "spout04", 8 ],
+					"args" : [ "spout04", 12 ],
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputSpoutSetup.maxpat",
@@ -475,7 +475,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "spout03", 7 ],
+					"args" : [ "spout03", 11 ],
 					"id" : "obj-28",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputSpoutSetup.maxpat",
@@ -559,7 +559,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "spout02", 6 ],
+					"args" : [ "spout02", 10 ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputSpoutSetup.maxpat",
@@ -584,7 +584,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 340.0, 14.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u295000202"
+					"varname" : "u437008038"
 				}
 
 			}
@@ -720,7 +720,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "spout01", 5 ],
+					"args" : [ "spout01", 9 ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "GUIInputSpoutSetup.maxpat",
