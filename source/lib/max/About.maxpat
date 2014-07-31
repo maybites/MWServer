@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 39.0, 71.0, 586.0, 577.0 ],
+		"rect" : [ 39.0, 71.0, 571.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,187 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-41",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 697.0, 151.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 215.07692, 659.0, 251.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "https://github.com/Vidvox/hap-qt-codec/releases/latest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-40",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 675.0, 151.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 227.07692, 645.0, 200.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://www.apple.com/quicktime/download/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-39",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 653.0, 151.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 207.07692, 631.0, 211.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://www.java.com/de/download/manual.jsp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-38",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 631.0, 249.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 216.07692, 590.0, 252.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "https://github.com/Vidvox/hap-qt-codec/releases/latest"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-37",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 609.0, 151.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 208.07692, 576.0, 170.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://support.apple.com/kb/DL1572"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-36",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 586.0, 151.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 236.0, 539.0, 179.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://cycling74.com/toolbox/jit-gl-hap/ "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-35",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 565.0, 111.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 297.0, 525.0, 101.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://spout.zeal.co/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-34",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 650.0, 737.0, 131.0, 31.0 ],
+					"text" : ";\rmax launchbrowser $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-33",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 544.0, 111.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 309.0, 510.0, 113.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://syphon.v002.info"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 479.0, 340.5, 112.0, 17.0 ],
+					"text" : "window flags grow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -95,7 +276,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -163,7 +344,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -315,24 +496,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-10",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 507.0, 456.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 87.5, 414.0, 393.0, 128.0 ],
-					"text" : "credits:\n\nbased on \n- the Max6 Framwork (http://cycing74.com), \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes \n- syphon plugin for MaxMSP from http://syphon.v002.info\n- HAP plugin for MaxMSP from http://cycling74.com/toolbox/jit-gl-hap/"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -341,7 +504,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 449.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 226.461548, 547.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 213.0, 678.0, 100.0, 20.0 ],
 					"text" : "close"
 				}
 
@@ -416,7 +579,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1725,6 +1888,24 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-10",
+					"linecount" : 19,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 59.0, 507.0, 456.0, 261.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 19,
+					"presentation_rect" : [ 63.0, 412.0, 456.0, 261.0 ],
+					"text" : "credits:\n\nbased on \n- the Max6 Framwork (http://cycing74.com), \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes \n- syphon plugin (OSX only) for MaxMSP from \n- spout plugin (Win only) for MaxMSP from \n- HAP plugin for MaxMSP from \n\nneeded for OSX\n- latest Java Version from \n- hap quicktime codec from \n\nneeded for Windows\n- latest Java Version from \n- Quicktime for Windows from \n- hap quicktime codec from "
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1930,6 +2111,87 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -2176,7 +2438,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
