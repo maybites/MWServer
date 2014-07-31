@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 522.0, 55.0, 618.0, 399.0 ],
+		"rect" : [ 522.0, 55.0, 1120.0, 811.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,21 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 128.0, 50.0, 72.0 ],
-					"text" : "enable 0"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -197,8 +182,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 732.0, 150.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_syphon04"
+					"patching_rect" : [ 72.0, 732.0, 143.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_spout04"
 				}
 
 			}
@@ -211,8 +196,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 703.0, 172.0, 20.0 ],
-					"text" : "TextureGateSyphon syphon04"
+					"patching_rect" : [ 72.0, 703.0, 153.0, 20.0 ],
+					"text" : "TextureGateSpout spout04"
 				}
 
 			}
@@ -224,8 +209,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.0, 749.0, 145.0, 17.0 ],
-					"text" : "s sourceOutputTexture_syphon04"
+					"patching_rect" : [ 246.0, 749.0, 138.0, 17.0 ],
+					"text" : "s sourceOutputTexture_spout04"
 				}
 
 			}
@@ -237,8 +222,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 544.0, 150.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_syphon03"
+					"patching_rect" : [ 72.0, 544.0, 143.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_spout03"
 				}
 
 			}
@@ -251,8 +236,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 517.0, 172.0, 20.0 ],
-					"text" : "TextureGateSyphon syphon03"
+					"patching_rect" : [ 72.0, 517.0, 153.0, 20.0 ],
+					"text" : "TextureGateSpout spout03"
 				}
 
 			}
@@ -264,8 +249,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 564.0, 145.0, 17.0 ],
-					"text" : "s sourceOutputTexture_syphon03"
+					"patching_rect" : [ 247.800003, 564.0, 138.0, 17.0 ],
+					"text" : "s sourceOutputTexture_spout03"
 				}
 
 			}
@@ -277,8 +262,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 363.0, 150.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_syphon02"
+					"patching_rect" : [ 68.0, 363.0, 143.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_spout02"
 				}
 
 			}
@@ -291,8 +276,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 337.0, 172.0, 20.0 ],
-					"text" : "TextureGateSyphon syphon02"
+					"patching_rect" : [ 68.0, 337.0, 153.0, 20.0 ],
+					"text" : "TextureGateSpout spout02"
 				}
 
 			}
@@ -304,8 +289,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 383.0, 145.0, 17.0 ],
-					"text" : "s sourceOutputTexture_syphon02"
+					"patching_rect" : [ 248.0, 383.0, 138.0, 17.0 ],
+					"text" : "s sourceOutputTexture_spout02"
 				}
 
 			}
@@ -317,8 +302,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 193.0, 150.0, 17.0 ],
-					"text" : "s sourcePreviewTexture_syphon01"
+					"patching_rect" : [ 79.0, 193.0, 143.0, 17.0 ],
+					"text" : "s sourcePreviewTexture_spout01"
 				}
 
 			}
@@ -331,8 +316,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 165.0, 172.0, 20.0 ],
-					"text" : "TextureGateSyphon syphon01"
+					"patching_rect" : [ 79.0, 165.0, 153.0, 20.0 ],
+					"text" : "TextureGateSpout spout01"
 				}
 
 			}
@@ -344,8 +329,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 504.0, 718.0, 203.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_syphon04"
+					"patching_rect" : [ 504.0, 718.0, 194.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_spout04"
 				}
 
 			}
@@ -357,8 +342,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 314.0, 717.0, 175.0, 20.0 ],
-					"text" : "s sourceTextureDim_syphon04"
+					"patching_rect" : [ 314.0, 717.0, 166.0, 20.0 ],
+					"text" : "s sourceTextureDim_spout04"
 				}
 
 			}
@@ -399,8 +384,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 280.0, 601.0, 282.0, 19.0 ],
-					"text" : "route /mws/syphon04/enable /mws/syphon04/refresh"
+					"patching_rect" : [ 280.0, 601.0, 264.0, 20.0 ],
+					"text" : "route /mws/spout04/enable /mws/spout04/refresh"
 				}
 
 			}
@@ -412,7 +397,7 @@
 					"name" : "GUIInputSpoutSetup.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 109.0, 632.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 189.0, 340.0, 45.0 ],
@@ -428,8 +413,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.0, 535.0, 203.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_syphon03"
+					"patching_rect" : [ 502.0, 535.0, 194.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_spout03"
 				}
 
 			}
@@ -441,8 +426,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.0, 537.0, 175.0, 20.0 ],
-					"text" : "s sourceTextureDim_syphon03"
+					"patching_rect" : [ 316.0, 537.0, 166.0, 20.0 ],
+					"text" : "s sourceTextureDim_spout03"
 				}
 
 			}
@@ -483,8 +468,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 282.0, 421.0, 282.0, 19.0 ],
-					"text" : "route /mws/syphon03/enable /mws/syphon03/refresh"
+					"patching_rect" : [ 282.0, 421.0, 264.0, 20.0 ],
+					"text" : "route /mws/spout03/enable /mws/spout03/refresh"
 				}
 
 			}
@@ -496,7 +481,7 @@
 					"name" : "GUIInputSpoutSetup.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 111.0, 452.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 144.0, 340.0, 45.0 ],
@@ -512,8 +497,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 360.0, 203.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_syphon02"
+					"patching_rect" : [ 497.0, 360.0, 194.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_spout02"
 				}
 
 			}
@@ -525,8 +510,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.0, 360.0, 175.0, 20.0 ],
-					"text" : "s sourceTextureDim_syphon02"
+					"patching_rect" : [ 316.0, 360.0, 166.0, 20.0 ],
+					"text" : "s sourceTextureDim_spout02"
 				}
 
 			}
@@ -567,8 +552,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 281.0, 242.0, 282.0, 19.0 ],
-					"text" : "route /mws/syphon02/enable /mws/syphon02/refresh"
+					"patching_rect" : [ 281.0, 242.0, 263.0, 20.0 ],
+					"text" : "route /mws/syout02/enable /mws/spout02/refresh"
 				}
 
 			}
@@ -580,7 +565,7 @@
 					"name" : "GUIInputSpoutSetup.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 111.0, 276.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 99.0, 340.0, 45.0 ],
@@ -599,7 +584,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 340.0, 14.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u402000306"
+					"varname" : "u437008038"
 				}
 
 			}
@@ -635,8 +620,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 498.0, 188.0, 203.0, 20.0 ],
-					"text" : "s sourceTextureDimRatio_syphon01"
+					"patching_rect" : [ 498.0, 188.0, 194.0, 20.0 ],
+					"text" : "s sourceTextureDimRatio_spout01"
 				}
 
 			}
@@ -648,8 +633,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 189.0, 175.0, 20.0 ],
-					"text" : "s sourceTextureDim_syphon01"
+					"patching_rect" : [ 315.0, 189.0, 166.0, 20.0 ],
+					"text" : "s sourceTextureDim_spout01"
 				}
 
 			}
@@ -686,8 +671,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 212.0, 145.0, 17.0 ],
-					"text" : "s sourceOutputTexture_syphon01"
+					"patching_rect" : [ 247.0, 212.0, 138.0, 17.0 ],
+					"text" : "s sourceOutputTexture_spout01"
 				}
 
 			}
@@ -728,8 +713,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 278.0, 45.0, 282.0, 19.0 ],
-					"text" : "route /mws/syphon01/enable /mws/syphon01/refresh"
+					"patching_rect" : [ 278.0, 45.0, 264.0, 20.0 ],
+					"text" : "route /mws/spout01/enable /mws/spout01/refresh"
 				}
 
 			}
@@ -741,7 +726,7 @@
 					"name" : "GUIInputSpoutSetup.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "jit_gl_texture", "", "", "" ],
 					"patching_rect" : [ 110.0, 101.0, 361.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 54.0, 340.0, 45.0 ],
@@ -803,15 +788,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 5 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
@@ -1563,11 +1539,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TextureGateSyphon.maxpat",
+				"name" : "TextureGateSpout.maxpat",
 				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.spoutreceiver.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}
