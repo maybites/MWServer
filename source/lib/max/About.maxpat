@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 39.0, 71.0, 571.0, 708.0 ],
+		"rect" : [ 0.0, 42.0, 583.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,44 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-43",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 507.0, 111.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 189.038452, 458.0, 97.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://cycing74.com"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-42",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 538.0, 477.0, 111.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 324.0, 525.0, 113.92308, 12.0 ],
+					"rounded" : 4.0,
+					"text" : "http://cycing74.com"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
@@ -276,7 +314,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 24.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -344,7 +382,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 59.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -1598,7 +1636,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1611,7 +1649,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1624,7 +1662,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1637,7 +1675,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-183",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1650,7 +1688,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-173",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1663,7 +1701,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"grad1" : [ 0.533333, 0.74902, 0.533333, 1.0 ],
 					"grad2" : [ 0.317647, 0.709804, 0.321569, 1.0 ],
 					"id" : "obj-188",
@@ -1678,7 +1716,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-192",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1691,7 +1729,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-187",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1718,7 +1756,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"grad1" : [ 0.533333, 0.74902, 0.533333, 1.0 ],
 					"grad2" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
 					"id" : "obj-177",
@@ -1733,7 +1771,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1746,7 +1784,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1759,7 +1797,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1772,7 +1810,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-178",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1785,7 +1823,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-180",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1798,7 +1836,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-174",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1811,7 +1849,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-175",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1824,7 +1862,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-176",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1837,7 +1875,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"id" : "obj-179",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1850,7 +1888,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-186",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1863,7 +1901,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.8, 1.0 ],
+					"bgcolor" : [ 0.25, 0.2, 0.6, 1.0 ],
 					"id" : "obj-191",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1902,7 +1940,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 19,
 					"presentation_rect" : [ 63.0, 412.0, 456.0, 261.0 ],
-					"text" : "credits:\n\nbased on \n- the Max6 Framwork (http://cycing74.com), \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes \n- syphon plugin (OSX only) for MaxMSP from \n- spout plugin (Win only) for MaxMSP from \n- HAP plugin for MaxMSP from \n\nneeded for OSX\n- latest Java Version from \n- hap quicktime codec from \n\nneeded for Windows\n- latest Java Version from \n- Quicktime for Windows from \n- hap quicktime codec from "
+					"text" : "credits:\n\nbased on \n- the Max6 Framwork \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes \n- syphon plugin (OSX only) for MaxMSP from \n- spout plugin (Win only) for MaxMSP from \n- HAP plugin for MaxMSP from \n\nneeded for OSX\n- latest Java Version from \n- hap quicktime codec from \n\nneeded for Windows\n- latest Java Version from \n- Quicktime for Windows from \n- hap quicktime codec from "
 				}
 
 			}
@@ -2197,6 +2235,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2438,8 +2485,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }

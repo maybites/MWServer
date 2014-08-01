@@ -32,12 +32,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 20.0, 374.0, 18.0 ],
-					"text" : "script sendbox GUIInputCollection replace GUIInput_Neutral.maxpat"
+					"patching_rect" : [ 34.0, 14.0, 382.0, 31.0 ],
+					"text" : "script sendbox GUIInputCollection replace GUIInput_Neutral.maxpat, script sendbox TextureSender replace TextureSendNeutral.maxpat"
 				}
 
 			}
@@ -517,7 +518,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 335.0, 323.0, 623.0, 499.0 ],
+						"rect" : [ 725.0, 307.0, 623.0, 499.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -541,12 +542,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 22.0, 292.0, 41.0, 18.0 ],
-									"text" : "purge"
+									"patching_rect" : [ 22.0, 292.0, 171.0, 31.0 ],
+									"text" : "subscribe GUIInputCollection, purge"
 								}
 
 							}
@@ -572,9 +574,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "purge", "" ],
-									"patching_rect" : [ 244.5, 86.0, 54.0, 20.0 ],
-									"text" : "t purge l"
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 244.5, 86.0, 32.5, 20.0 ],
+									"text" : "t b l"
 								}
 
 							}
@@ -1667,7 +1669,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
@@ -1989,7 +1991,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 49.0, 314.0, 441.0, 18.0 ],
+									"patching_rect" : [ 49.0, 314.0, 441.0, 17.0 ],
 									"text" : "window size 0 45 374 77, window flags nogrow, window flags nozoom, window exec"
 								}
 
@@ -2003,7 +2005,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 282.0, 422.0, 18.0 ],
+									"patching_rect" : [ 75.0, 282.0, 422.0, 17.0 ],
 									"text" : "window size 0 45 $1 $2, window flags grow, window flags nozoom, window exec"
 								}
 
@@ -2459,7 +2461,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 390.0, 276.0, 787.0, 480.0 ],
+						"rect" : [ 387.0, 378.0, 787.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2479,6 +2481,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 476.0, 50.0, 34.0, 20.0 ],
+									"text" : "t b b"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -3272,7 +3288,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 323.666687, 109.0, 60.0, 20.0 ],
+									"patching_rect" : [ 323.666687, 23.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -6916,6 +6932,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-164", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-165", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7034,6 +7068,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -19832,7 +19875,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 356.0, 16.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u528013139"
+									"varname" : "u632017162"
 								}
 
 							}
@@ -28366,7 +28409,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u056013140"
+					"varname" : "u879017163"
 				}
 
 			}
@@ -39690,7 +39733,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 436.0, 9.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u048013196"
+									"varname" : "u617017156"
 								}
 
 							}
@@ -45411,7 +45454,7 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
-					"name" : "GUIInput_Neutral.maxpat",
+					"name" : "GUIInput_OSX.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 52.0, 364.0, 183.0 ],
@@ -46778,7 +46821,98 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "GUIInput_Neutral.maxpat",
+				"name" : "GUIInput_OSX.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputCollection_OSX.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputQTMovieCollection.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputQTMovieSetup.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RandomFileselector.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RandomFileselector.js",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TextureGateQTMovie.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputSyphonCollection.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputSyphonSetup.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TextureGateSyphon.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputCaptureCollection_OSX.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputCaptureSetup_OSX.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputHAPCollection.maxpat",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
+				"patcherrelativepath" : "./lib/max",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GUIInputHAPSetup.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
@@ -46824,20 +46958,6 @@
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RandomFileselector.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RandomFileselector.js",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -47030,6 +47150,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "properties.txt",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "About.maxpat",
 				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
 				"patcherrelativepath" : "./lib/max",
@@ -47049,6 +47176,14 @@
 				"patcherrelativepath" : "./lib/max",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jit.gl.syphonserver.mxo",
