@@ -46,7 +46,7 @@
 				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "bpatcher",
-					"name" : "TextureSendSyphon.maxpat",
+					"name" : "TextureSendSprout.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1656.0, 471.0, 302.0, 26.0 ],
@@ -496,7 +496,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 953.0, 77.0, 166.0, 31.0 ],
-					"text" : ";\rmax getsystem systemswitch"
+					"text" : ";\r\nmax getsystem systemswitch"
 				}
 
 			}
@@ -1801,7 +1801,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 75.0, 253.0, 88.0, 18.0 ],
-									"text" : "374 855"
+									"text" : "374 870"
 								}
 
 							}
@@ -2519,7 +2519,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 623.083374, 211.0, 149.0, 58.0 ],
-									"text" : ";\rmax launchbrowser http://meshwarpserver.org/?page_id=77"
+									"text" : ";\r\nmax launchbrowser http://meshwarpserver.org/?page_id=77"
 								}
 
 							}
@@ -3493,7 +3493,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1231.5, 377.324341, 80.0, 31.0 ],
-													"text" : ";\rjitter cursor 1"
+													"text" : ";\r\njitter cursor 1"
 												}
 
 											}
@@ -3675,7 +3675,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1245.0, 339.0, 113.0, 31.0 ],
-													"text" : ";\rmax pupdate 40 40"
+													"text" : ";\r\nmax pupdate 40 40"
 												}
 
 											}
@@ -3690,7 +3690,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1261.5, 298.324341, 80.0, 31.0 ],
-													"text" : ";\rjitter cursor 0"
+													"text" : ";\r\njitter cursor 0"
 												}
 
 											}
@@ -4076,7 +4076,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 48.5, 169.5, 187.0, 32.0 ],
-																	"text" : ";\rmax sendapppath g_runtimePath"
+																	"text" : ";\r\nmax sendapppath g_runtimePath"
 																}
 
 															}
@@ -4119,7 +4119,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 15.0, 69.0, 150.0, 32.0 ],
-																	"text" : ";\rmax getruntime g_runtime"
+																	"text" : ";\r\nmax getruntime g_runtime"
 																}
 
 															}
@@ -4233,7 +4233,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 810.5, 212.0, 87.0, 45.0 ],
-													"text" : ";\rmax showmenubar"
+													"text" : ";\r\nmax showmenubar"
 												}
 
 											}
@@ -4248,7 +4248,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 698.5, 212.0, 83.0, 45.0 ],
-													"text" : ";\rmax hidemenubar"
+													"text" : ";\r\nmax hidemenubar"
 												}
 
 											}
@@ -19875,7 +19875,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 356.0, 16.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u632017162"
+									"varname" : "u439007019"
 								}
 
 							}
@@ -28409,7 +28409,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u879017163"
+					"varname" : "u787007020"
 				}
 
 			}
@@ -28435,7 +28435,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-42",
-					"items" : [ "off", ",", "movie01", ",", "movie02", ",", "movie03", ",", "movie04", ",", "hap01", ",", "hap02", ",", "hap03", ",", "hap04", ",", "syphon01", ",", "syphon02", ",", "syphon03", ",", "syphon04", ",", "capture01", ",", "capture02", ",", "capture03", ",", "capture04" ],
+					"items" : [ "off", ",", "movie01", ",", "movie02", ",", "movie03", ",", "movie04", ",", "hap01", ",", "hap02", ",", "hap03", ",", "hap04", ",", "spout01", ",", "spout02", ",", "spout03", ",", "spout04", ",", "capture01", ",", "capture02", ",", "capture03", ",", "capture04" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -39733,7 +39733,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 436.0, 9.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u617017156"
+									"varname" : "u655007013"
 								}
 
 							}
@@ -45001,9 +45001,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 669.0, 590.0, 80.0, 35.0 ],
+					"patching_rect" : [ 669.0, 590.0, 80.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 723.0, 68.0, 35.0 ]
+					"presentation_rect" : [ 7.0, 723.0, 68.0, 36.0 ]
 				}
 
 			}
@@ -45454,7 +45454,7 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
-					"name" : "GUIInput_OSX.maxpat",
+					"name" : "GUIInput_Win.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 52.0, 364.0, 183.0 ],
@@ -46821,373 +46821,384 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "GUIInput_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "GUIInput_Win.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GUIInputCollection_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "GUIInputCollection_Win.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputQTMovieCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputQTMovieSetup.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RandomFileselector.js",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureGateQTMovie.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GUIInputSyphonCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "GUIInputSpoutCollection.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GUIInputSyphonSetup.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "GUIInputSpoutSetup.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TextureGateSyphon.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "TextureGateSpout.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GUIInputCaptureCollection_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "GUIInputCaptureCollection_Win.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GUIInputCaptureSetup_OSX.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "GUIInputCaptureSetup_Win.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputHAPCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUIInputHAPSetup.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "TextureGateSyphon.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLink.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkEnable.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkBrCoSa.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkMask.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkResample.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkSoftEdge.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUITextureLinkSoftEdgeParam.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "softEdgeParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdge.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeParam.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GUISoftEdgeMeshConfig.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawTextureOnVideoTable.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "textureParamsSplitter.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawSoftEdgeOnVideoTable.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveTextureDims.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveInputTexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigSelector.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigCollection.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfigurator.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MeshConfiguratorRemoteHelper.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EditorEventHandler.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "div.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mult.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveUserviewTexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixDecoupling.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gradientEditor.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TextureChain.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remoteControl.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sub.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveSoftEdgeTexture.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "add.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "properties.txt",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "About.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IconButton.png",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/imgs",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/imgs",
 				"patcherrelativepath" : "./lib/imgs",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TextureSendSyphon.maxpat",
-				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/max",
-				"patcherrelativepath" : "./lib/max",
+				"name" : "TextureSendSprout.maxpat",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/max",
+				"patcherrelativepath" : "./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/./lib/max/.",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.gl.syphonclient.mxo",
-				"type" : "iLaX"
+				"name" : "jit.gl.spoutreceiver.mxe",
+				"type" : "iLaF"
 			}
 , 			{
-				"name" : "jit.gl.hap.mxo",
-				"type" : "iLaX"
+				"name" : "jit.gl.hap.mxe",
+				"type" : "iLaF"
 			}
 , 			{
-				"name" : "jit.gl.syphonserver.mxo",
-				"type" : "iLaX"
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
+			}
+, 			{
+				"name" : "jit.gl.spoutsender.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}

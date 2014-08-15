@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 42.0, 583.0, 711.0 ],
+		"rect" : [ 397.0, 72.0, 579.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,18 +31,18 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-43",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 538.0, 507.0, 111.0, 14.0 ],
+					"patching_rect" : [ 558.0, 507.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.038452, 458.0, 97.92308, 12.0 ],
+					"presentation_rect" : [ 260.0, 351.0, 112.92308, 20.0 ],
 					"rounded" : 4.0,
-					"text" : "http://cycing74.com"
+					"text" : "http://maybites.ch"
 				}
 
 			}
@@ -59,9 +59,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 477.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 525.0, 113.92308, 12.0 ],
+					"presentation_rect" : [ 183.07692, 462.0, 113.92308, 12.0 ],
 					"rounded" : 4.0,
-					"text" : "http://cycing74.com"
+					"text" : "http://cycling74.com"
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 697.0, 151.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.07692, 659.0, 251.92308, 12.0 ],
+					"presentation_rect" : [ 219.07692, 670.0, 251.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "https://github.com/Vidvox/hap-qt-codec/releases/latest"
 				}
@@ -97,7 +97,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 675.0, 151.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.07692, 645.0, 200.92308, 12.0 ],
+					"presentation_rect" : [ 231.07692, 656.0, 200.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://www.apple.com/quicktime/download/"
 				}
@@ -116,7 +116,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 653.0, 151.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.07692, 631.0, 211.92308, 12.0 ],
+					"presentation_rect" : [ 211.07692, 642.0, 211.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://www.java.com/de/download/manual.jsp"
 				}
@@ -135,7 +135,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 631.0, 249.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.07692, 590.0, 252.92308, 12.0 ],
+					"presentation_rect" : [ 216.07692, 599.0, 252.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "https://github.com/Vidvox/hap-qt-codec/releases/latest"
 				}
@@ -154,7 +154,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 609.0, 151.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.07692, 576.0, 170.92308, 12.0 ],
+					"presentation_rect" : [ 208.07692, 585.0, 170.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://support.apple.com/kb/DL1572"
 				}
@@ -173,7 +173,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 586.0, 151.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 539.0, 179.92308, 12.0 ],
+					"presentation_rect" : [ 236.0, 545.0, 179.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://cycling74.com/toolbox/jit-gl-hap/ "
 				}
@@ -192,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 565.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 525.0, 101.92308, 12.0 ],
+					"presentation_rect" : [ 297.0, 531.0, 101.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://spout.zeal.co/"
 				}
@@ -208,8 +208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.0, 737.0, 131.0, 31.0 ],
-					"text" : ";\rmax launchbrowser $1"
+					"patching_rect" : [ 650.0, 737.0, 131.0, 32.0 ],
+					"text" : ";\r\nmax launchbrowser $1"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 544.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 309.0, 510.0, 113.92308, 12.0 ],
+					"presentation_rect" : [ 309.0, 517.0, 113.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://syphon.v002.info"
 				}
@@ -241,7 +241,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 340.5, 112.0, 17.0 ],
+					"patching_rect" : [ 479.0, 340.5, 112.0, 18.0 ],
 					"text" : "window flags grow"
 				}
 
@@ -270,8 +270,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 485.0, 222.0, 45.0 ],
-					"text" : ";\rmax launchbrowser http://meshwarpserver.org/?page_id=10"
+					"patching_rect" : [ 306.0, 485.0, 222.0, 46.0 ],
+					"text" : ";\r\nmax launchbrowser http://meshwarpserver.org/?page_id=10"
 				}
 
 			}
@@ -314,7 +314,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -370,7 +370,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.0, 271.0, 102.0, 17.0 ],
+					"patching_rect" : [ 467.0, 271.0, 102.0, 18.0 ],
 					"text" : "window flags float"
 				}
 
@@ -382,7 +382,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -398,8 +398,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.0, 398.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.5, 351.0, 118.0, 20.0 ],
-					"text" : "created by maybites"
+					"presentation_rect" : [ 191.5, 351.0, 70.0, 20.0 ],
+					"text" : "created by "
 				}
 
 			}
@@ -454,7 +454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 187.0, 139.0, 17.0 ],
+					"patching_rect" : [ 462.0, 187.0, 139.0, 18.0 ],
 					"text" : "window flags nominimize"
 				}
 
@@ -468,7 +468,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 227.0, 116.0, 17.0 ],
+					"patching_rect" : [ 462.0, 227.0, 116.0, 18.0 ],
 					"text" : "window flags nogrow"
 				}
 
@@ -482,7 +482,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 207.0, 118.0, 17.0 ],
+					"patching_rect" : [ 462.0, 207.0, 118.0, 18.0 ],
 					"text" : "window flags noclose"
 				}
 
@@ -496,7 +496,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 167.0, 119.0, 17.0 ],
+					"patching_rect" : [ 462.0, 167.0, 119.0, 18.0 ],
 					"text" : "window flags nozoom"
 				}
 
@@ -510,7 +510,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 315.0, 75.0, 17.0 ],
+					"patching_rect" : [ 454.0, 315.0, 75.0, 18.0 ],
 					"text" : "window exec"
 				}
 
@@ -542,7 +542,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 449.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.0, 678.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 215.07692, 691.0, 100.0, 20.0 ],
 					"text" : "close"
 				}
 
@@ -1627,9 +1627,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 328.0, 291.0, 42.0 ],
+					"patching_rect" : [ 127.0, 328.0, 291.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 319.0, 347.0, 24.0 ],
+					"presentation_rect" : [ 108.0, 319.0, 347.0, 25.0 ],
 					"text" : "MeshWarpServer SE © by meshwarpserver.org"
 				}
 
@@ -1936,10 +1936,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 507.0, 456.0, 261.0 ],
+					"patching_rect" : [ 59.0, 507.0, 456.0, 269.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 19,
-					"presentation_rect" : [ 63.0, 412.0, 456.0, 261.0 ],
+					"presentation_rect" : [ 63.0, 416.0, 456.0, 269.0 ],
 					"text" : "credits:\n\nbased on \n- the Max6 Framwork \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes \n- syphon plugin (OSX only) for MaxMSP from \n- spout plugin (Win only) for MaxMSP from \n- HAP plugin for MaxMSP from \n\nneeded for OSX\n- latest Java Version from \n- hap quicktime codec from \n\nneeded for Windows\n- latest Java Version from \n- Quicktime for Windows from \n- hap quicktime codec from "
 				}
 
@@ -2244,6 +2244,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2484,6 +2493,14 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "IconButton.png",
+				"bootpath" : "/Users/ARPS/workspace/01_projekte/110221_MWServer/dev_02/source/lib/imgs",
+				"patcherrelativepath" : "../imgs",
+				"type" : "PNG ",
+				"implicit" : 1
 			}
  ]
 	}
