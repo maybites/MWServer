@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 42.0, 583.0, 711.0 ],
+		"rect" : [ 315.0, 141.0, 583.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,25 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-44",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 553.0, 492.0, 111.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 257.0, 351.0, 103.0, 20.0 ],
+					"rounded" : 4.0,
+					"text" : "http://maybites.ch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-43",
 					"maxclass" : "textbutton",
@@ -40,9 +59,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 507.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.038452, 458.0, 97.92308, 12.0 ],
+					"presentation_rect" : [ 213.0, 456.0, 245.92308, 12.0 ],
 					"rounded" : 4.0,
-					"text" : "http://cycing74.com"
+					"text" : "https://cycling74.com/thanks-for-downloading-max6/"
 				}
 
 			}
@@ -59,9 +78,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 477.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 525.0, 113.92308, 12.0 ],
+					"presentation_rect" : [ 241.0, 470.0, 187.0, 12.0 ],
 					"rounded" : 4.0,
-					"text" : "http://cycing74.com"
+					"text" : "http://code.google.com/p/saitoobjloader"
 				}
 
 			}
@@ -173,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 586.0, 151.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 539.0, 179.92308, 12.0 ],
+					"presentation_rect" : [ 236.0, 537.0, 179.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://cycling74.com/toolbox/jit-gl-hap/ "
 				}
@@ -192,7 +211,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 565.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 525.0, 101.92308, 12.0 ],
+					"presentation_rect" : [ 297.0, 523.0, 101.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://spout.zeal.co/"
 				}
@@ -226,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 544.0, 111.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 309.0, 510.0, 113.92308, 12.0 ],
+					"presentation_rect" : [ 311.0, 509.0, 113.92308, 12.0 ],
 					"rounded" : 4.0,
 					"text" : "http://syphon.v002.info"
 				}
@@ -287,7 +306,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 290.0, 449.0, 225.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.0, 395.0, 126.92308, 17.0 ],
+					"presentation_rect" : [ 213.0, 394.0, 126.92308, 17.0 ],
 					"rounded" : 4.0,
 					"text" : "check for latest release"
 				}
@@ -314,7 +333,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -382,7 +401,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -398,8 +417,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.0, 398.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.5, 351.0, 118.0, 20.0 ],
-					"text" : "created by maybites"
+					"presentation_rect" : [ 188.5, 351.0, 70.0, 20.0 ],
+					"text" : "created by "
 				}
 
 			}
@@ -542,7 +561,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.0, 449.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.0, 678.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 236.0, 680.0, 100.0, 20.0 ],
 					"text" : "close"
 				}
 
@@ -617,7 +636,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,
@@ -1940,7 +1959,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 19,
 					"presentation_rect" : [ 63.0, 412.0, 456.0, 261.0 ],
-					"text" : "credits:\n\nbased on \n- the Max6 Framwork \n- portions of the obj loader from http://code.google.com/p/saitoobjloader\n\nincludes \n- syphon plugin (OSX only) for MaxMSP from \n- spout plugin (Win only) for MaxMSP from \n- HAP plugin for MaxMSP from \n\nneeded for OSX\n- latest Java Version from \n- hap quicktime codec from \n\nneeded for Windows\n- latest Java Version from \n- Quicktime for Windows from \n- hap quicktime codec from "
+					"text" : "credits:\n\nbased on \n- the Max6 Framwork from \n- portions of the obj loader from \n\nincludes \n- syphon plugin (OSX only) for MaxMSP from \n- spout plugin (Win only) for MaxMSP from \n- HAP plugin for MaxMSP from \n\nneeded for OSX\n- latest Java Version from \n- hap quicktime codec from \n\nneeded for Windows\n- latest Java Version from \n- Quicktime for Windows from \n- hap quicktime codec from "
 				}
 
 			}
@@ -2484,6 +2503,14 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "IconButton.png",
+				"bootpath" : "/Users/maybites/Arbeiten/01_projekte/110221_MWServer/01_dev/source/lib/imgs",
+				"patcherrelativepath" : "../imgs",
+				"type" : "PNG ",
+				"implicit" : 1
 			}
  ]
 	}
