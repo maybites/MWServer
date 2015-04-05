@@ -25,7 +25,7 @@ Windows 7
 	
 In order to run MeshWarpServers Source for the first time, you need to install some proprietary software:
 
-First download and install MaxMSPJitter from http://cycling74.org. It has a 30 day demo mode before you need to purchase it. 	You need to point the MaxMSP's Searchpath to the lib-folder: MaxMSP>Menu>Options>File Preferences… and add a new 	path to the lib-folder with subfolders selected. 
+First download and install Max 6 from https://cycling74.com/thanks-for-downloading-max6/. It has a 30 day demo mode before you need to purchase it. 	You need to point the MaxMSP's Searchpath to the lib-folder: MaxMSP>Menu>Options>File Preferences… and add a new 	path to the lib-folder with subfolders selected. 
 
 If you wanna use syphon functionality (OSX only) you need to download and install the Syphon Plugins for MaxMSP: http://syphon.v002.info/
 
@@ -54,6 +54,10 @@ Known Bugs:
 
 Changelog:
 ==========
+	
+	SE 009		- hap player implemented for OSX and Windows
+				- spout support for Windows
+				- OSC command compatibility for TouchOSC
 
 	SE 008		- new startup features - see Menu-Properties
 				- subdivision fix
